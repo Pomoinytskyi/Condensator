@@ -1,0 +1,53 @@
+@page "/Import"
+@using System.Net.Http.Headers
+@inject HttpClient Http
+
+<h3>Upload Files</h3>
+
+<p>
+    <label>
+        <InputFile OnChange="@LoadFiles" />
+    </label>
+    <button class="btn btn-primary" @onclick="Upload">Upload</button>
+</p>
+
+@if (isLoading)
+{
+    <p>Uploading...</p>
+}
+else
+{
+    <ul>
+        <li>Name: @file ?? string.Empty</li>
+        <li>Last modified: @file?.LastModified.ToString()</li>
+        <li>Size (bytes): @file?.Size</li>
+        <li>Content type: @file?.ContentType</li>
+    </ul>
+}
+
+@code {
+    private IBrowserFile? file = null;
+    private bool isLoading;
+
+    private void LoadFiles(InputFileChangeEventArgs e)
+    {
+        isLoading = true;
+        file = e.File;
+        isLoading = false;
+        
+    }
+
+    private async Task Upload()
+    {
+        if(file == null)
+        {
+            return;
+        }
+
+        using var content = new MultipartFormDataContent();
+        var fileContent = new StreamContent(file.OpenReadStream());
+        fileContent.Headers.ContentType = new MediaTypeHeaderValue("application/xml");
+        content.Add(content: fileContent, name: "\"file\"", fileName: file.Name);
+        var response = await Http.PostAsync("/Import/UploadOmpFile", content);
+    }
+}

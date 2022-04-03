@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=CondensatorRootUser
+      - MONGO_INITDB_ROOT_PASSWORD=C0ndens@torRootP@ssworD
+    ports:
+      - 27017:27017
+    volumes:
+     - ./../../../data/mongodb:/data/db
