@@ -1,9 +1,8 @@
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using WebUi.Server.Data;
 using WebUi.Server.Models;
-using WebUi.Server.Servoces;
+using WebUi.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,27 +17,22 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddSingleton<IMongoRepository, MongoRepository>();
+builder.Services.AddHostedService<NewLinksCollector>();
 
-builder.Services.AddIdentityServer()
-    .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
-
-builder.Services.AddAuthentication()
-    .AddIdentityServerJwt();
-
+builder.Services.AddIdentityServer().AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
+builder.Services.AddAuthentication().AddIdentityServerJwt();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: MyAllowSpecificOrigins,
-                      builder =>
-                      {
-                          builder.WithOrigins("https://localhost:7256");
-                      });
-});
-
-
+// var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy(name: MyAllowSpecificOrigins,
+//                       builder =>
+//                       {
+//                           builder.WithOrigins("https://localhost:7256");
+//                       });
+// });
 
 var app = builder.Build();
 
@@ -63,7 +57,7 @@ app.UseStaticFiles();
 
 
 app.UseRouting();
-app.UseCors(MyAllowSpecificOrigins);
+// app.UseCors(MyAllowSpecificOrigins);
 
 app.MapControllerRoute(name: "routes", pattern: "{controller:routes}");
 

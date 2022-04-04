@@ -1,8 +1,8 @@
 using System.Xml.Linq;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using WebUi.Server.Models.DataImport;
-using WebUi.Server.Servoces;
+using WebUi.Server.Models.RssPuller;
+using WebUi.Server.Services;
 using WebUi.Shared;
 
 namespace WebUi.Server.Controllers;
@@ -12,6 +12,9 @@ namespace WebUi.Server.Controllers;
 [Route("[controller]/[action]")]
 public class ImportController : ControllerBase
 {
+    //ToDo: Move to config
+    private const int DefaultPullIntervalSeconds = 13 * 60;
+
     private IMongoRepository repository;
     private ILogger<ImportController> logger;
     public ImportController(IMongoRepository repository
@@ -29,7 +32,7 @@ public class ImportController : ControllerBase
         string filePath = string.Empty;
         try
         {
-            var fileName = file.FileName;
+            var fileName = Guid.NewGuid().ToString() + ".xml";
             filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", fileName);
             logger.LogInformation($"Uploading file {fileName} to {filePath}");
             using (var stream = new FileStream(filePath, FileMode.Create))
@@ -62,21 +65,18 @@ public class ImportController : ControllerBase
     {
         XDocument opml = XDocument.Load(fileName);
         logger.LogInformation(opml.Root.ToString());
-        // foreach(var e in opml.Root?.Elements("outline"))
-        // {
-        //     logger.LogTrace(e.ToString());
-        // }
-
         var rssRecords = opml.Root?.Elements("outline")
             .Select(outline => new RssRecord
             {
                 Name = outline.Attribute("title")!.Value,
                 Url = outline.Attribute("xmlUrl")!.Value,
-                Domain = outline.Attribute("htmlUrl")!.Value
+                Domain = outline.Attribute("htmlUrl")!.Value,
+                LastPulled = DateTime.MinValue,
+                PullInterval = TimeSpan.FromSeconds(DefaultPullIntervalSeconds),
+                IsAlive = true
             }).ToList();
         return rssRecords ?? new List<RssRecord>();
     }
-
 
     [HttpGet]
     public IEnumerable<WeatherForecast> GetData()

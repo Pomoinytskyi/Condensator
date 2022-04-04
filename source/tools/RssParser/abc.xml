@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+    <channel>
+        <title>Blog &#8211; DeepLearning.AI</title>
+        <atom:link href="https://www.deeplearning.ai/blog/feed/" rel="self" type="application/rss+xml" />
+        <link>https://www.deeplearning.ai</link>
+        <description>What is Machine Learning? Machine Learning Courses</description>
+        <lastBuildDate>Tue, 15 Mar 2022 19:17:45 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+        <sy:updateFrequency>
+	1	</sy:updateFrequency>
+        <generator>https://wordpress.org/?v=5.9.2</generator>
+        <image>
+            <url>https://www.deeplearning.ai/wp-content/uploads/2021/03/cropped-Icon-512size-32x32.png</url>
+            <title>Blog &#8211; DeepLearning.AI</title>
+            <link>https://www.deeplearning.ai</link>
+            <width>32</width>
+            <height>32</height>
+        </image>
+        <item>
+            <title>Working AI: How a Determined Entrepreneur Used Deep Learning to Grow His Business</title>
+            <link>https://www.deeplearning.ai/how-determined-entrepreneur-used-deep-learning-to-grow-his-business/</link>
+            <comments>https://www.deeplearning.ai/how-determined-entrepreneur-used-deep-learning-to-grow-his-business/#respond</comments>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Thu, 23 Dec 2021 19:12:52 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25568</guid>
+            <description>
+                <![CDATA[<p>Kai Saksela is the CEO of NL Acoustics, a Finnish technology startup that designs and manufactures AI products to analyze sounds. He took the Deep Learning Specialization primarily because he loves learning new skills and has been fascinated by the field for a long time. He also had a hunch that neural networks would help his company solve a core problem: providing customers guidance on what they should do when their equipment starts making strange noises. He spoke with us about how his hunch paid off and why AI plays a central role in his company’s growth.</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/how-determined-entrepreneur-used-deep-learning-to-grow-his-business/">Working AI: How a Determined Entrepreneur Used Deep Learning to Grow His Business</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<p></p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><img width="1024" height="576" src="https://www.deeplearning.ai/wp-content/uploads/2022/02/Screen-Shot-2022-02-08-at-10.06.22-AM-1024x576.png" alt="" class="wp-image-25984" srcset="https://www.deeplearning.ai/wp-content/uploads/2022/02/Screen-Shot-2022-02-08-at-10.06.22-AM-1024x576.png 1024w, https://www.deeplearning.ai/wp-content/uploads/2022/02/Screen-Shot-2022-02-08-at-10.06.22-AM-300x169.png 300w, https://www.deeplearning.ai/wp-content/uploads/2022/02/Screen-Shot-2022-02-08-at-10.06.22-AM-768x432.png 768w, https://www.deeplearning.ai/wp-content/uploads/2022/02/Screen-Shot-2022-02-08-at-10.06.22-AM-1600x900.png 1600w, https://www.deeplearning.ai/wp-content/uploads/2022/02/Screen-Shot-2022-02-08-at-10.06.22-AM-1536x864.png 1536w, https://www.deeplearning.ai/wp-content/uploads/2022/02/Screen-Shot-2022-02-08-at-10.06.22-AM.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p><strong>Name:</strong> Kai Saksela<br><strong>Title: </strong>CEO and Co-founder of NL Acoustics<br><strong>Location:</strong> Helsinki, Finland<br><strong>Education:</strong> Master of Science, Structural Engineering and Acoustics, Aalto University<br></p>
+
+
+
+<p><em>Kai Saksela’s technology startup designs and manufactures AI products that analyze sounds to determine if physical components — from electrical grid infrastructure, for instance — are working properly. He took the Deep Learning Specialization primarily because he loves learning new skills and has been fascinated by the field for a long time. He also had a hunch that neural networks would help his company solve a core problem: providing customers guidance on what they should do when their equipment starts making strange noises. He spoke with us about how his hunch paid off and why AI plays a central role in his company’s growth.</em></p>
+
+
+
+<p></p>
+
+
+
+<h5 class="has-medium-font-size" id="h-deeplearning-ai-you-are-the-ceo-of-noiseless-acoustics-can-you-tell-us-a-bit-about-your-company"><b><span style="font-weight: 400;"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-graphite-color">DeepLearning.AI: You are the CEO of Noiseless Acoustics. Can you tell us a bit about your company?</mark></span></b></h5>
+
+
+
+<p>Saksela: <span style="font-weight: 400;">We build solutions that detect certain types of sounds for our customers. These sounds indicate expensive or dangerous problems. The problems can be anything from leaks to sounds indicating that a component is about to fail or even explode. A critical part of that is being able to understand what the sound tells us.</span></p>
+
+
+
+<p></p>
+
+
+
+<h5 id="h-what-challenges-was-your-company-facing-that-you-hoped-ai-could-help-solve"><span style="font-weight: 400;"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-graphite-color">What challenges was your company facing that you hoped AI could help solve?</mark></span></h5>
+
+
+
+<p><span style="font-weight: 400;">Early on, we had managed to develop measuring equipment for processing digital audio signals which worked really well for certain types of things. It could provide all this incredible information about where various sounds are coming from and would instantly show the location of the sound to the user on a screen, but it left customers with unanswered questions. We needed an actionable component, being able to tell them when sound was indicating that a piece of equipment was going to fail, for example, or when it indicated that a problem was expensive enough to warrant repairing. We had already used all sorts of traditional algorithmic approaches for digital signal processing, but I wanted to see if we could make these work better using another approach. That’s also one of the reasons why I took the Specialization; to learn if neural networks could help us with this.</span></p>
+
+
+
+<p></p>
+
+
+
+<h5 id="h-how-did-the-specialization-help-you-overcome-this-problem"><span style="font-weight: 400;"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-graphite-color">How did the Specialization help you overcome this problem?</mark></span></h5>
+
+
+
+<p>After taking the Specialization, I spent a lot of time building various types of neural networks and trained them using some of the data we have. One of these networks performed far better than anything we had tried so far. We have built on my original work since then, but even now a large part of our products are based on the techniques I learned in the Specialization.&nbsp;</p>
+
+
+
+<p>Using our analysis, we can, for example, analyze sounds from electrical components, and we show our customers a score indicating the severity of the problem causing the sound. Our AI provides us with enough analysis to actually offer actionable solutions. For example, in this case the valuable information we can provide thanks to AI is information on whether they need to clean the component, repair it, or for example install a completely new one to replace it.</p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="2560" height="1440" src="https://www.deeplearning.ai/wp-content/uploads/2022/01/unnamed-edited-1-scaled.jpeg" alt="" class="wp-image-25852" srcset="https://www.deeplearning.ai/wp-content/uploads/2022/01/unnamed-edited-1-scaled.jpeg 2560w, https://www.deeplearning.ai/wp-content/uploads/2022/01/unnamed-edited-1-300x169.jpeg 300w, https://www.deeplearning.ai/wp-content/uploads/2022/01/unnamed-edited-1-1024x576.jpeg 1024w, https://www.deeplearning.ai/wp-content/uploads/2022/01/unnamed-edited-1-768x432.jpeg 768w, https://www.deeplearning.ai/wp-content/uploads/2022/01/unnamed-edited-1-1600x900.jpeg 1600w, https://www.deeplearning.ai/wp-content/uploads/2022/01/unnamed-edited-1-1536x864.jpeg 1536w, https://www.deeplearning.ai/wp-content/uploads/2022/01/unnamed-edited-1-2048x1152.jpeg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /></figure></div>
+
+
+
+<h5 id="h-how-has-your-company-changed-since-you-added-ai-to-your-core-product"><span style="font-weight: 400;"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-graphite-color">How has your company changed since you added AI to your core product?</mark></span></h5>
+
+
+
+<p><span style="font-weight: 400;">Since I took the Specialization, we have grown from a five-person company to over 30 people. And we keep on growing. AI plays a very central role in our value proposition.</span></p>
+
+
+
+<p></p>
+
+
+
+<h5 id="h-you-were-already-an-established-ceo-when-you-took-the-course-how-else-has-specialization-helped-you-in-your-role-as-ceo"><span style="font-weight: 400;"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-graphite-color">You were already an established CEO when you took the course. How else has Specialization helped you in your role as CEO?</mark></span></h5>
+
+
+
+<p><span style="font-weight: 400;">The Specialization has helped me make informed decisions around AI, with a deeper understanding of how AI actually works. This understanding has helped me plan ways to meet our customers’ needs and make decisions about where to take our products. Understanding these things on a technical level also helps when recruiting and structuring our teams.</span></p>
+
+
+
+<p></p>
+
+
+
+<p><em>You can find Kai Saksela on <a href="https://www.linkedin.com/in/kaisaksela/">LinkedIn</a>.</em></p>
+
+
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-text-align-center">Ready to #BeADeepLearner like Kai?&nbsp;</p>
+
+
+
+<div class="wp-container-624a729c8b34e wp-block-buttons"></div>
+
+
+
+<div class="wp-container-624a729c8d1e4 wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.coursera.org/specializations/deep-learning">Enroll in The Deep Learning Specialization</a></div>
+</div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/how-determined-entrepreneur-used-deep-learning-to-grow-his-business/">Working AI: How a Determined Entrepreneur Used Deep Learning to Grow His Business</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+            <wfw:commentRss>https://www.deeplearning.ai/how-determined-entrepreneur-used-deep-learning-to-grow-his-business/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>How an AI Outsider Overcame His Imposter Syndrome and Became a Senior Machine Learning Engineer</title>
+            <link>https://www.deeplearning.ai/overcoming-imposter-syndrome-how-matt-struble-stopped-feeling-like-an-ai-outsider/</link>
+            <comments>https://www.deeplearning.ai/overcoming-imposter-syndrome-how-matt-struble-stopped-feeling-like-an-ai-outsider/#respond</comments>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Thu, 23 Dec 2021 19:11:09 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25561</guid>
+            <description>
+                <![CDATA[<p>Matt Struble is an engineer at a sportswear company, where he currently leads a team that’s developing a deep learning system for predicting shoe trends a year or two into the future. Before taking the Deep Learning Specialization, he was a computer programmer who watched data scientists from afar. </p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/overcoming-imposter-syndrome-how-matt-struble-stopped-feeling-like-an-ai-outsider/">How an AI Outsider Overcame His Imposter Syndrome and Became a Senior Machine Learning Engineer</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="#BeADeepLearner like Matt Struble with DeepLearning.AI" width="500" height="281" src="https://www.youtube.com/embed/fkB6NySGvGY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p><strong>Name:</strong> Matt Struble<br><strong>Title: </strong>Senior Machine Learning Engineer<br><strong>Location:</strong> Boston, Massachusetts, U.S.<br><strong>Education:</strong> Bachelor of Science, Game programming from Champlain College; Master of Science, Computer Technology from Georgia Tech<br><strong>Favorite ML area:</strong> Computer vision and Fintech<br><strong>Favorite video game:</strong> The Legend of Zelda series</p>
+
+
+
+<p><i><span style="font-weight: 400;"><em>Matt Struble is an engineer at a sportswear company, where he currently leads a team that’s developing a deep learning system for predicting shoe trends a year or two into the future. Before taking the Deep Learning Specialization, he was a computer programmer who watched data scientists from afar. He spoke with us about how the course helped him overcome his Imposter syndrome and land a job he loves.</em></span></i></p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="378" height="457" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5200.jpeg" alt="" class="wp-image-25563" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5200.jpeg 378w, https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5200-248x300.jpeg 248w" sizes="(max-width: 378px) 100vw, 378px" /></figure></div>
+
+
+
+<h4 id="h-what-were-you-doing-before-you-became-a-deep-learning-engineer"><b><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">What were you doing before you became a deep learning engineer?</span></span></b></h4>
+
+
+
+<p>MS: <span style="font-weight: 400;">Before the Deep Learning Specialization, I was a contractor at Draper, an engineering company in Boston. My responsibilities included managing flight data and developing guidance navigation control algorithms for various rocket propellant systems. I was essentially creating a data warehouse that enabled other scientists to go through and perform analysis.</span></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-that-sounds-like-a-really-cool-job-why-did-you-decide-to-leave"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">That sounds like a really cool job. Why did you decide to leave?</span></span></h4>
+
+
+
+<p>MS: <span style="font-weight: 400;">Due to the pandemic, Draper was unable to continue with contractors on board, and gave me a choice to become a full-time software engineer. Instead, I chose to use the time to pivot my career into machine learning and truly get out of my comfort zone.</span></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-why-did-you-decide-to-enroll-in-the-deep-learning-specialization"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Why did you decide to enroll in the Deep Learning Specialization?</span></span></h4>
+
+
+
+<p>MS: <span style="font-weight: 400;">I always knew that I wanted to do more than just basic software engineering. At Draper, I would see what the data scientists were doing and always had the desire to be more hands-on and not just a supporting software engineer. I had an interest in AI and dabbled a bit, but I always felt like an outsider. I felt like a hobbyist, poking my head in where I didn’t belong, making assumptions but not really contributing anything to the field. The Specialization helped me understand what was under the hood of machine learning and provided me that extra reassurance that I did understand things. From there, I achieved things that previously seemed impossible, like building my own projects from scratch.</span></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-you-re-working-as-a-machine-learning-engineer-at-a-major-tech-company-how-does-deep-learning-fit-into-your-daily-work-now"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">You’re working as a machine learning engineer at a major tech company. How does deep learning fit into your daily work now?</span></span></h4>
+
+
+
+<p>MS: I’m the lead engineer of a team that does digital demand forecasting. A lot of my day-to-day work is analyzing data streams of past shoe demand and developing models that produce predictions of what style is going to be the most sought-after during, say, the 2023 holiday season. I work closely with our data scientists, project managers, and other software engineers to see what the marketplace will look like.</p>
+
+
+
+<p>I’m also currently working on a side project where I’m developing a deep learning model to rate and gauge the aesthetics of a photo. So this involves training a computer vision system to do something similar to what people do when they are trying to pick the best image out of 30 similar photos. We plan to release that as a phone app in the future.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="768" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5259-1024x768.jpeg" alt="" class="wp-image-25564" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5259-1024x768.jpeg 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5259-300x225.jpeg 300w, https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5259-768x576.jpeg 768w, https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5259-1600x1200.jpeg 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5259-1536x1152.jpeg 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/12/IMG_5259.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-how-would-you-describe-your-job-satisfaction-now-instead-of-how-you-felt-before-becoming-a-deep-learning-engineer"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How would you describe your job satisfaction now instead of how you felt before becoming a deep learning engineer?</span></span></h4>
+
+
+
+<p>MS: <span style="font-weight: 400;">I feel like I&#8217;m more involved in AI, and that in itself is super rewarding. I’m a part of this cutting-edge ecosystem. I’m involved in conversations. I can read, understand, and recreate research papers. Before, all of this stuff was a mumbo jumbo mystery!</span></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-what-did-you-find-most-impactful-about-the-deep-learning-specialization"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">What did you find most impactful about the Deep Learning Specialization?</span></span></h4>
+
+
+
+<p>MS: <span style="font-weight: 400;">Overall, it was very helpful to understand things like model workflow, data pre-processing and post-processing, and other prep work that goes into creating a model. Creating a model is only a small part of being an engineer; understanding what’s going on beneath the hood lets you know what to do if your model starts exhibiting biases or making weird predictions. So you know what’s going wrong and how to pivot in the right direction.</span></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-text-align-center">Ready to #BeADeepLearner like Matt?&nbsp;<strong><span class="has-inline-color has-coral-color"><a href="https://www.deeplearning.ai/program/deep-learning-specialization/?utm_source=deeplearning-ai&amp;utm_medium=blog&amp;utm_campaign=dls-jan21&amp;course_id=dls-2">Enroll in the Deep Learning Specialization</a></span></strong></p>
+
+
+
+<p><em><strong>You can find Matt Struble on <a href="https://www.linkedin.com/in/mattstruble/">LinkedIn</a>.</strong></em></p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/overcoming-imposter-syndrome-how-matt-struble-stopped-feeling-like-an-ai-outsider/">How an AI Outsider Overcame His Imposter Syndrome and Became a Senior Machine Learning Engineer</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+            <wfw:commentRss>https://www.deeplearning.ai/overcoming-imposter-syndrome-how-matt-struble-stopped-feeling-like-an-ai-outsider/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>How Deep Learning Helped an IT Manager Find New Career Satisfaction After Age 40</title>
+            <link>https://www.deeplearning.ai/its-never-too-late-to-learn-after-20-years-in-tech-olivier-moulin-is-getting-a-ph-d-in-deep-learning/</link>
+            <comments>https://www.deeplearning.ai/its-never-too-late-to-learn-after-20-years-in-tech-olivier-moulin-is-getting-a-ph-d-in-deep-learning/#respond</comments>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Thu, 23 Dec 2021 19:09:37 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25554</guid>
+            <description>
+                <![CDATA[<p>Olivier Moulin is an IT manager for a large, multi-national medical technology company who has been working in technology for over 20 years. Early in his career, he made a tough decision to take a high paying job instead of pursuing a Ph.D. He spoke with us about how the Deep Learning Specialization helped him build the confidence to go back</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/its-never-too-late-to-learn-after-20-years-in-tech-olivier-moulin-is-getting-a-ph-d-in-deep-learning/">How Deep Learning Helped an IT Manager Find New Career Satisfaction After Age 40</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<p><strong>Name:</strong> Olivier Moulin<br><strong>Title: </strong>Senior Enterprise Architect and part-time PhD Candidate in Reinforcement Learning @ VU Amsterdam<br><strong>Location:</strong> Amsterdam, the Netherlands<br><strong>Education:</strong> Master&#8217;s in Science, Information Technology from Universite de Technologie de Compiegne <br><strong>Favorite ML area:</strong> Reinforcement Learning, with a focus on how to improve the generalization capability of trained agents to new environments.</p>
+
+
+
+<p><i><span style="font-weight: 400;"><em>Olivier Moulin is an IT manager for a large, multi-national medical technology company who has been working in technology for over 20 years. Early in his career, he made a tough decision to take a high paying job instead of pursuing a Ph.D. He spoke with us about how the Deep Learning Specialization helped him build the confidence to go back to school and why some aspects of learning are actually easier as you get older. </em> </span></i></p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="619" height="618" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-1.jpeg" alt="" class="wp-image-25555" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-1.jpeg 619w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-1-300x300.jpeg 300w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-1-150x150.jpeg 150w" sizes="(max-width: 619px) 100vw, 619px" /></figure></div>
+
+
+
+<h4 id="h-you-had-a-pretty-long-career-in-it-before-taking-the-deep-learning-specialization-and-getting-into-ai-why-did-you-decide-now-was-the-time-to-go-back-to-school"><b><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">You had a pretty long career in IT before taking the Deep Learning Specialization and getting into AI. Why did you decide now was the time to go back to school?</span></span></b></h4>
+
+
+
+<p><span style="font-weight: 400;">OM: I have been passionate about computer science my whole life. I learned to code when I was six, probably before I could even write properly. I studied computer science and received a master&#8217;s degree from one of the best universities in France. After that, I wanted to pursue a Ph.D., but it was the year 2000, and IT professionals were being offered a lot of cash. So you have to understand, my passion is technology. But early in my career I did what everybody does. I made moves that got me a better salary. I went into management, but I was never a manager at heart.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-how-did-you-get-interested-in-ai"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How did you get interested in AI?</span></span></h4>
+
+
+
+<p>OM: <span style="font-weight: 400;">I was always interested in emerging technologies. A few years ago, my manager recommended I look into courses on Coursera. I started out with some others on machine learning, which were exciting and well-explained. But, they didn’t go into deep neural networks. It made me think, hey, something is missing here. Then I took the Deep Learning Specialization and found that it went very far into the things I wanted to learn.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-how-did-you-go-from-the-specialization-to-a-ph-d-in-reinforcement-learning"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How did you go from the Specialization to a Ph.D in reinforcement learning?</span></span></h4>
+
+
+
+<p>OM: <span style="font-weight: 400;">I enjoyed the course a lot, and it made me think that I wanted to learn more. I kept accumulating more courses on Coursera, until I thought to myself, “Well, you’re 45 now, and you have a long career behind you, but you’re never too old to learn, right?” I applied to a Ph.D at Vrije University here in Amsterdam, and my work is paying for it through our tuition program. Reinforcement learning was not my first choice, it was something my Ph.D advisor directed me towards. The more I learn about it, the more passionate I become. Reinforcement learning is a hot topic with an interesting mix of techniques. Most of the big papers have come out in the last three years. </span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-do-you-have-any-advice-you-can-pass-along-to-other-people-who-are-established-in-their-careers-but-are-curious-about-taking-a-step-into-deep-learning"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Do you have any advice you can pass along to other people who are established in their careers but are curious about taking a step into deep learning?</span></span></h4>
+
+
+
+<p>OM: <span style="font-weight: 400;">Each time you complete a course, it gives you a bit of confidence. You learn a few new capabilities, and you say, why not more? Maybe pushing for a Ph.D. isn’t for everybody, especially when you are already working. But when you are older, it’s easier to spend your free time doing something productive. I will also say that I am a lot better at math at 45 years old than I was at 20 [laughs].</span></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-text-align-center">Ready to #BeADeepLearner like Oliver?&nbsp;<strong><span class="has-inline-color has-coral-color"><a href="https://www.deeplearning.ai/program/deep-learning-specialization/?utm_source=deeplearning-ai&amp;utm_medium=blog&amp;utm_campaign=dls-jan21&amp;course_id=dls-2">Enroll in the Deep Learning Specialization</a></span></strong></p>
+
+
+
+<p><em><strong>You can find Oliver Moulin on <a href="https://www.linkedin.com/in/olmoulin/">LinkedIn</a>. </strong></em></p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/its-never-too-late-to-learn-after-20-years-in-tech-olivier-moulin-is-getting-a-ph-d-in-deep-learning/">How Deep Learning Helped an IT Manager Find New Career Satisfaction After Age 40</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+            <wfw:commentRss>https://www.deeplearning.ai/its-never-too-late-to-learn-after-20-years-in-tech-olivier-moulin-is-getting-a-ph-d-in-deep-learning/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>How a New Mother Learned AI During Her Newborn Baby’s Naps</title>
+            <link>https://www.deeplearning.ai/how-apala-guha-learned-ai-during-her-newborn-babys-naps/</link>
+            <comments>https://www.deeplearning.ai/how-apala-guha-learned-ai-during-her-newborn-babys-naps/#respond</comments>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Thu, 23 Dec 2021 19:09:23 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25539</guid>
+            <description>
+                <![CDATA[<p>Apala Guha is a senior machine learning compiler engineer at Lightmatter, a Boston-area startup. Before that, she was a computer scientist who had always been interested in deep learning. When she quit her previous job at the beginning of 2020 to have a baby, she took advantage of the “time off” to take the Specialization.</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/how-apala-guha-learned-ai-during-her-newborn-babys-naps/">How a New Mother Learned AI During Her Newborn Baby’s Naps</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="#BeADeepLearner like Apala Guha with DeepLearning.AI" width="500" height="281" src="https://www.youtube.com/embed/4Gq9E7m98xs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<p><strong>Name:</strong> Apala Guha<br><strong>Title: </strong>Software Engineer at Microsoft<br><strong>Location:</strong> Redmond, Washington, U.S.<br><strong>Education:</strong> Bachelor of Science, Computer Science from Jadavpur University; Master of Science, Computer Engineering from the University of Virginia; PhD, Computer Engineering from the University of Virginia<br><strong>Favorite ML area:</strong> Performance Optimization at AI inference</p>
+
+
+
+<p></p>
+
+
+
+<p><i><span style="font-weight: 400;">Apala Guha is a senior machine learning compiler engineer at Lightmatter, a Boston-area startup. Before that, she was a computer scientist who had always been interested in deep learning. When she quit her previous job at the beginning of 2020 to have a baby, she took advantage of the “time off” to take the Specialization. She talked to us about how she found time to keep learning while caring for an infant, how her knowledge of AI helps with designing computer chips, and why the Deep Learning Specialization helped her feel emotionally connected to her profession for the first time. </span></i></p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="768" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed-1-1024x768.jpeg" alt="" class="wp-image-25580" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed-1-1024x768.jpeg 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed-1-300x225.jpeg 300w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed-1-768x576.jpeg 768w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed-1-1600x1200.jpeg 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed-1-1536x1152.jpeg 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed-1-2048x1536.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<h4 id="h-what-were-you-doing-in-your-career-before-you-started-working-in-ai"><b><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">What were you doing in your career before you started working in AI?</span></span> </b></h4>
+
+
+
+<p><span style="font-weight: 400;">AG: I have a Ph.D. in computer science, and have worked at Intel and as a researcher for several universities. At first, my work had nothing to do with artificial intelligence, but over time AI came to the forefront, and eventually, our focus shifted to building systems specifically for AI. I wanted to take the Specialization for a while but didn’t have time until I stayed home after my baby right after the pandemic started.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-how-were-you-able-to-take-the-course-while-also-caring-for-a-newborn"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How were you able to take the course while also caring for a newborn?</span> </span></h4>
+
+
+
+<p><span style="font-weight: 400;">AG: I had quit my job right before having the baby, so taking care of it was my new full-time job. But I was a bit concerned about being out of touch with work during that time and thought about how to use my free time productively. Luckily, the content in the Specialization was delivered in small bites, which is all that I had. Yes, caring for newborn babies is a full-time job, but they also sleep a lot. I did not have control of when the baby would sleep or for how long, but I developed a mindset that I could work around this uncertain schedule. The baby would nap, I would make a little bit of progress, and I would keep doing that day after day.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-given-your-prior-experience-working-in-computer-science-why-did-you-feel-it-was-necessary-to-take-the-specialization"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Given your prior experience working in computer science, why did you feel it was necessary to take the Specialization?</span> </span></h4>
+
+
+
+<p><span style="font-weight: 400;">AG: I have spent most of my career working from the system’s perspective. I also taught data science, but mainly focusing on data mining. I had never worked on anything purely machine learning, and I felt that this was the right time to do so. I was building systems for machine learning and felt that I could even use machine learning to help build the system. It seemed to be the highest priority thing I could learn at that time. </span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-how-challenging-was-it-for-you-to-find-work-after-your-maternity-leave-was-over"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How challenging was it for you to find work after your maternity leave was over? </span></span></h4>
+
+
+
+<p><span style="font-weight: 400;">AG: didn’t have any problems. I interviewed with three companies and got two job offers. This was my first job after having the baby and taking a long break, but my interviews went very smoothly. I attribute a lot of that to the sound fundamentals in deep learning that I could obtain in such a short time.</span></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="768" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-1024x768.jpeg" alt="" class="wp-image-25541" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-1024x768.jpeg 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-300x225.jpeg 300w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-768x576.jpeg 768w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-1600x1200.jpeg 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-1536x1152.jpeg 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/12/unnamed1-2048x1536.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-can-you-tell-us-a-little-bit-more-about-your-current-role"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Can you tell us a little bit more about your current role?</span> </span></h4>
+
+
+
+<p><span style="font-weight: 400;">AG: I work in a Boston-based startup called LightMatter, building AI inference accelerators using optical computers, which use light as a signal instead of electricity. That’s what we’re doing at the hardware level. At the application level, we are targeting AI, primarily deep learning.&nbsp; It has been around for three years, and I’ve been working here for six months. As for my specific role, I am on the compiler team. My job is to take, say, a deep learning network written in PyTorch or TensorFlow and port it over to our hardware. So I need to have a pretty good understanding of deep learning fundamentals, and the Specialization helped me get this job.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-were-there-any-aspects-of-the-specialization-that-you-found-particularly-impactful"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Were there any aspects of the Specialization that you found particularly impactful? </span></span></h4>
+
+
+
+<p><span style="font-weight: 400;">AG: From my perspective, I want to be a user of AI but will probably not invent some new type of architecture. It was great at serving me precisely what I needed and leaving out the things I didn’t. For example, the material explains things without going too deeply into mathematics, which would have been hard for me to absorb in such short bites of time. I understand at high-level things like why Resnet has skipped connections or how YOLO makes single shot detections without being bogged down by the nitty-gritty details of every little thing. Andrew is a great teacher, and he did a fantastic job explaining concepts by relating them to things we already understand.&nbsp;</span></p>
+
+
+
+<p></p>
+
+
+
+<h4><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Are there ways that the Specialization helps you in your day-to-day work? </span></span></h4>
+
+
+
+<p><span style="font-weight: 400;">AG: It definitely helps to fast-track my projects. You don’t necessarily need an understanding of deep learning to build these computer systems, but it would take a lot longer. I either already know about the networks I am working on in my projects, or I can go and review lectures to familiarize myself. I don’t need to speed days or weeks understanding how a network does something. As a startup, we don’t have a lot of people, so saving time is very important.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How satisfied are you with your career now compared to before taking the Specialization? </span></span></h4>
+
+
+
+<p><span style="font-weight: 400;">AG: Before taking the course, I was a computer scientist and have always worked with computer systems. But I struggled to find an application that I could connect with. Since returning to work and designing computers specifically for AI, I have felt more passionate about what I do because I feel connected to what is going on in society. For example, if face recognition is in the news, I feel connected to the discussion because the system I’m building does face recognition. I feel very passionate about these issues because they relate directly to me. </span></p>
+
+
+
+<p class="has-text-align-center">Ready to #BeADeepLearner like Apala?&nbsp;<strong><span class="has-inline-color has-coral-color"><a href="https://www.deeplearning.ai/program/deep-learning-specialization/?utm_source=deeplearning-ai&amp;utm_medium=blog&amp;utm_campaign=dls-jan21&amp;course_id=dls-2">Enroll in the Deep Learning Specialization</a></span></strong></p>
+
+
+
+<p><em><strong>You can find Apala Guha on <a href="https://www.linkedin.com/in/apala-guha/">LinkedIn</a>.</strong></em></p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/how-apala-guha-learned-ai-during-her-newborn-babys-naps/">How a New Mother Learned AI During Her Newborn Baby’s Naps</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+            <wfw:commentRss>https://www.deeplearning.ai/how-apala-guha-learned-ai-during-her-newborn-babys-naps/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>How a Mathematician Found Career Satisfaction With Deep Learning</title>
+            <link>https://www.deeplearning.ai/how-aleksandr-gontcharov-found-career-satisfaction-with-deep-learning/</link>
+            <comments>https://www.deeplearning.ai/how-aleksandr-gontcharov-found-career-satisfaction-with-deep-learning/#respond</comments>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Thu, 23 Dec 2021 19:09:11 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25603</guid>
+            <description>
+                <![CDATA[<p>Aleksandr Gontcharov is a software engineer at Microsoft. Early in his career, he moved from job to job, but none of them ever felt right. The Deep Learning Specialization helped him find his calling; he was hired for a machine learning role while still taking the courses. He spoke with us about why the Specialization was the spark that put his career in motion. </p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/how-aleksandr-gontcharov-found-career-satisfaction-with-deep-learning/">How a Mathematician Found Career Satisfaction With Deep Learning</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="#BeADeepLearner like Aleksandr Gontcharov with DeepLearning.AI" width="500" height="281" src="https://www.youtube.com/embed/MR1KzFSlRQY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p><strong>Name:</strong> Aleksandr Gontcharov<br><strong>Title: </strong>Senior Machine Learning Compiler Engineer at Lightmatter<br><strong>Location:</strong> Easthampton, Massachusetts, U.S.<br><strong>Education:</strong> Bachelor of Science, Mathematics from the University of Toronto; Master of Science, Mathematics from the University of Ottawa<br><strong>Favorite ML area:</strong> I like the fundamentals of deep learning: gradient descent, optimization algorithms like Adam, and initializations. I believe there is a lot of research left in these fundamental areas and I hope to publish some papers. </p>
+
+
+
+<p><i><span style="font-weight: 400;"><em>Aleksandr Gontcharov is a software engineer at Microsoft. Early in his career, he moved from job to job, but none of them ever felt right. The Deep Learning Specialization helped him find his calling; he was hired for a machine learning role while still taking the courses. He spoke with us about why the Specialization was the spark that put his career in motion.</em> </span></i></p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="576" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Headshot-1-1024x576.jpg" alt="" class="wp-image-25604" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Headshot-1-1024x576.jpg 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Headshot-1-300x169.jpg 300w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Headshot-1-768x432.jpg 768w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Headshot-1.jpg 1111w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<h4 id="h-you-ve-had-a-varied-career-in-tech-is-your-background-in-computer-science"><b><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">You’ve had a varied career in tech. Is your background in computer science?</span></span></b></h4>
+
+
+
+<p><span style="font-weight: 400;">My degree is actually in mathematics. Back in college, I thought I could just graduate and become an accountant, a programmer, or an engineer. But when I began looking for work, I found that they always wanted you to have a specialization. I landed some jobs, first as a web developer, then analyzing spreadsheets for a credit union, and then making statistical reports for the Canadian government. But I was not satisfied early in my career because I was constantly looking for more of a challenge.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-what-was-it-about-the-deep-learning-specialization-that-grabbed-your-attention"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">What was it about the Deep Learning Specialization that grabbed your attention?</span></span></h4>
+
+
+
+<p><span style="font-weight: 400;">The Specialization was actually my second attempt to learn AI. At first, I attempted to learn through a book, but it wasn’t helpful and I lost interest [laughs]. Sometime later, my colleagues were talking about AI at work, which inspired me to look into courses on Coursera. When I started the Specialization, I was immediately hooked because Andrew Ng teaches like a university professor, which is my learning style. And what stood out to me was how Andrew always says, “Don’t worry if you don’t understand the math.” But I did understand the math! He was talking about matrices and other things I had studied in college. It felt like the perfect way to marry my background with something in demand.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-how-did-the-specialization-help-you-find-a-more-satisfying-job"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How did the Specialization help you find a more satisfying job?</span></span></h4>
+
+
+
+<p>It helped in a lot of ways. When looking for jobs, your resume must show that you have the specific skills the employer is looking for. The Specialization allowed me to show that I knew about the different kinds of neural networks, how to train them, and that I was proficient with software and libraries related to AI.&nbsp;</p>
+
+
+
+<p>Once I landed some interviews, I quickly realized that the Specialization had prepared me to speak with confidence on these topics. All that, plus my previous background working with data and my confidence in mathematics, allowed me to get my first AI job at a startup.</p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="566" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Action-2-1024x566.jpg" alt="" class="wp-image-25605" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Action-2-1024x566.jpg 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Action-2-300x166.jpg 300w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Action-2-768x424.jpg 768w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Action-2-1600x884.jpg 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Action-2-1536x849.jpg 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Aleksandr-Gontcharov-Action-2-2048x1132.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<h4 id="h-what-were-some-of-the-most-impactful-courses-from-the-specialization"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">What were some of the most impactful courses from the Specialization?</span></span></h4>
+
+
+
+<p><span style="font-weight: 400;">At my first AI job, I did a lot of natural language processing. But when I was hired, I was only partially done with the Specialization and hadn’t yet gotten to the modules on NLP. I went through those courses while working and found that they were exactly what I needed to apply myself to my current role. When changing your career, there’s always the fear that you’ll be surrounded by people who know more than you. But the things I had learned helped to keep me from drowning.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-compared-to-where-you-were-a-few-years-ago-how-satisfied-are-you-with-your-career-now"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Compared to where you were a few years ago, how satisfied are you with your career now?</span></span></h4>
+
+
+
+<p><span style="font-weight: 400;">My current job at Microsoft is the most challenging role I’ve ever had. I’m really honored to be asked to speak about the Deep Learning Specialization because I see it as a turning point in my career. It gave me a career that satisfies me and gave me a deep understanding of AI that can never be taken away from me.</span></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-text-align-center">Ready to #BeADeepLearner like Aleksandr?&nbsp;<strong><span class="has-inline-color has-coral-color"><a href="https://www.deeplearning.ai/program/deep-learning-specialization/?utm_source=deeplearning-ai&amp;utm_medium=blog&amp;utm_campaign=dls-jan21&amp;course_id=dls-2">Enroll in the Deep Learning Specialization</a></span></strong></p>
+
+
+
+<p><em><strong>You can find Aleksandr Gontcharov on <a href="https://www.linkedin.com/in/aleksandrgontcharov/">LinkedIn</a>.</strong></em></p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/how-aleksandr-gontcharov-found-career-satisfaction-with-deep-learning/">How a Mathematician Found Career Satisfaction With Deep Learning</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+            <wfw:commentRss>https://www.deeplearning.ai/how-aleksandr-gontcharov-found-career-satisfaction-with-deep-learning/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>How an Astrophysicist Decided that Deep Learning Was His True Calling</title>
+            <link>https://www.deeplearning.ai/from-astrophysics-to-ai-why-luciano-darriba-made-the-switch/</link>
+            <comments>https://www.deeplearning.ai/from-astrophysics-to-ai-why-luciano-darriba-made-the-switch/#respond</comments>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Thu, 23 Dec 2021 19:08:52 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25557</guid>
+            <description>
+                <![CDATA[<p>Luciano Darriba is an AI developer living in Buenos Aires, Argentina. In his former life, he was an astrophysicist. This wasn’t fulfilling him, so he took the Deep Learning Specialization in hopes of kickstarting a new trajectory. Less than a year later, he had a new job working at Baufest, a software services company. </p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/from-astrophysics-to-ai-why-luciano-darriba-made-the-switch/">How an Astrophysicist Decided that Deep Learning Was His True Calling</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="#BeADeepLearner like Luciano Darriba with DeepLearning.A" width="500" height="281" src="https://www.youtube.com/embed/eu88EsQZQI0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p><strong>Name:</strong> Luciano Darriba<br><strong>Title: </strong>AI Developer<br><strong>Location:</strong> La Plata, Buenos Aires, Argentina<br><strong>Education:</strong> Bachelor of Science, Astronomy from the National University of La Plata; Ph.D., Astronomy from the National University of La Plata<br><strong>Favorite ML area:</strong> Computer vision<br><strong>Favorite astronomer:</strong> Aristarchus of Samos. He was an ancient Greek astronomer who was the first to propose the heliocentric Solar System model.</p>
+
+
+
+<p><i><span style="font-weight: 400;"><em>Luciano Darriba is an AI developer living in Buenos Aires, Argentina. In his former life, he was an astrophysicist. This wasn’t fulfilling him, so he took the Deep Learning Specialization in hopes of kickstarting a new trajectory. Less than a year later, he had a new job working at Baufest, a software services company. He spoke with us about the moment he realized it was time to spend his career.</em></span></i></p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="768" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Home-1-1024x768.jpg" alt="" class="wp-image-25558" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Home-1-1024x768.jpg 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Home-1-300x225.jpg 300w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Home-1-768x576.jpg 768w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Home-1-1600x1200.jpg 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Home-1-1536x1152.jpg 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Home-1-2048x1536.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<h4 id="h-can-you-tell-us-a-bit-more-about-what-you-were-doing-prior-to-becoming-an-ai-developer"><b><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Can you tell us a bit more about what you were doing prior to becoming an AI developer?</span></span> </b></h4>
+
+
+
+<p><span style="font-weight: 400;">LD: I have a PhD in astronomy and worked as a researcher until 2020. Mostly I worked with planetary formation from a theoretical point of view, using numerical simulations rather than direct observations. But I always had the feeling that doing scientific research didn’t fulfill me completely. Also the economic situation here in Argentina is not very good for scientists. Around the start of the pandemic, in April 2020, I was getting more dissatisfied in my career. I’ve always had an interest in AI, but thought that it was only for a select elite group of super intelligent people.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-coming-from-an-astrophysicist-it-s-interesting-to-hear-that-you-believed-ai-was-out-of-your-reach-can-you-describe-the-moment-when-you-realized-it-was-something-you-could-do"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">Coming from an astrophysicist, it’s interesting to hear that you believed AI was out of your reach. Can you describe the moment when you realized it was something you could do?</span></span></h4>
+
+
+
+<p><span style="font-weight: 400;">LD: I started taking the Specialization, and I realized how easy it was to do artificial intelligence. Well, it’s not easy, but it was something I could do without 20 years studying computer engineering. The mathematics Andrew described were things I learned in my first year of college. At that moment a switch went off in my head. I remember telling my wife, “I want to leave astronomy behind and dedicate my life to this.”</span></p>
+
+
+
+<p>When astrophysicists and geophysicists from my former faculty found out about my career change, several of them contacted me saying they had the same doubts. It was profoundly rewarding for me to help them so they wouldn’t feel as abandoned and helpless as I did at that time.</p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="768" src="https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Work-2-1024x768.jpg" alt="" class="wp-image-25559" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Work-2-1024x768.jpg 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Work-2-300x225.jpg 300w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Work-2-768x576.jpg 768w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Work-2-1600x1200.jpg 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Work-2-1536x1152.jpg 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/12/Luciano-Darriba-Work-2-2048x1536.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<h4 id="h-what-lessons-from-the-deep-learning-specialization-have-been-most-impactful-for-you"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">What lessons from the deep learning specialization have been most impactful for you?</span> </span></h4>
+
+
+
+<p><span style="font-weight: 400;">LD: It’s hard to pick a lesson as the “most impactful”, since all five courses became cornerstones in my new career. But if I have to choose one, I think the basic neural network architectures were explained very well in the course and are now engraved in my mind. They are the baseline I refer to whenever I start a new project, and they help me think clearly about how we’ll tackle our solution. </span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-how-do-you-use-ai-in-your-day-to-day-work"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How do you use AI in your day-to-day work?</span></span></h4>
+
+
+
+<p>LD: <span style="font-weight: 400;">My main focus is computer vision, so I use object detection and object classification. I do some time series prediction as well, but I can’t really get into specifics.</span></p>
+
+
+
+<p></p>
+
+
+
+<h4 id="h-how-do-you-keep-learning"><span style="font-weight: 400;"><span class="has-inline-color has-coral-color">How do you keep learning?</span> </span></h4>
+
+
+
+<p><span style="font-weight: 400;">LD: I approach it in a similar way as when I was an astronomer. Whenever I start a new project I look for papers that were milestones in the subject, and for research that is the current state of the art. Unlike astronomy, however, you don’t have to go back 50 years ago to look through all the research. Most of the important milestones have happened in the last three or four years.</span></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-text-align-center">Ready to #BeADeepLearner like Luciano?&nbsp;<strong><span class="has-inline-color has-coral-color"><a href="https://www.deeplearning.ai/program/deep-learning-specialization/?utm_source=deeplearning-ai&amp;utm_medium=blog&amp;utm_campaign=dls-jan21&amp;course_id=dls-2">Enroll in the Deep Learning Specialization</a></span></strong></p>
+
+
+
+<p><em><strong>You can find Luciano Darrriba on <a href="https://www.linkedin.com/in/luciano-darriba/">Linke</a><a href="https://www.linkedin.com/in/apala-guha/">dIn</a>.</strong></em></p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/from-astrophysics-to-ai-why-luciano-darriba-made-the-switch/">How an Astrophysicist Decided that Deep Learning Was His True Calling</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+            <wfw:commentRss>https://www.deeplearning.ai/from-astrophysics-to-ai-why-luciano-darriba-made-the-switch/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>How We Won the First Data-Centric AI Competition: Synaptic-AnN</title>
+            <link>https://www.deeplearning.ai/data-centric-ai-competition-synaptic-ann/</link>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Tue, 19 Oct 2021 04:39:13 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25048</guid>
+            <description>
+                <![CDATA[<p>In this blog post, Synaptic-AnN, one of the winners of the Data-Centric AI Competition, describes techniques and strategies that led to victory. Participants received a fixed model architecture and a dataset of 1,500 handwritten Roman numerals. Their task was to optimize model performance solely by improving the dataset and dividing it into training and validation sets. The dataset size was capped at 10,000.</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/data-centric-ai-competition-synaptic-ann/">How We Won the First Data-Centric AI Competition: Synaptic-AnN</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<figure class="wp-block-image size-large is-style-full-width"><img loading="lazy" width="1024" height="576" src="https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-02-1024x576.png" alt="" class="wp-image-25050" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-02-1024x576.png 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-02-300x169.png 300w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-02-768x432.png 768w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-02-1600x901.png 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-02-1536x865.png 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-02-2048x1153.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p class="is-style-text-sm-mobile"><em>I<em>n this blog post, Synaptic-AnN, one of the winners of the Data-Centric AI Competition, describes techniques and strategies that led to victory. Participants received a fixed model architecture and a dataset of 1,500 handwritten Roman numerals. Their task was to optimize model performance solely by improving the dataset and dividing it into training and validation sets. The dataset size was capped at 10,000. You can find more details about the competition</em> <a href="https://https-deeplearning-ai.github.io/data-centric-comp/">here</a>.</em></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p>1.<strong> Your personal journey in AI:&nbsp;</strong></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Asfandyar:&nbsp;</strong></p>
+
+
+
+<p>Before all this, I was following in my father&#8217;s footsteps thinking that I wanted to become a hot-shot banker. However, while pursuing a degree in Mathematics and Economics, I realized that my quantitative skills were not being applied in the banking sector as I had wished. I quickly found out that consultancy work and Excel spreadsheets were not for me.&nbsp;</p>
+
+
+
+<p>After watching the movie <a href="https://en.wikipedia.org/wiki/The_Internship"><em>The Internship</em></a>, the TV-series <a href="https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"><em>Silicon Valley</em></a>, and playing the video game <a href="https://en.wikipedia.org/wiki/Detroit:_Become_Human"><em>Detroit: Become Human</em></a>, I was sold on artificial intelligence and the tech industry. While taking a deep dive on YouTube, I came across multiple tech channels that spoke fondly of Andrew Ng&#8217;s Machine Learning course on Coursera. I had to try it!&nbsp;</p>
+
+
+
+<p>Next thing I know, I&#8217;ve completed the Deep Learning specialization on Coursera and am pursuing my current degree program in Data Science and AI. Furthermore, Deeplearning.ai and Stanford HAI&#8217;s virtual event on <a href="https://www.youtube.com/watch?v=Gbnep6RJinQ"><em>Healthcare&#8217;s AI Future</em></a><em> </em>made me understand AI&#8217;s sheer impact on our society. I went through a major spinal cord surgery back in late 2019 caused by a congenital birth defect that was undetected at birth (<a href="https://www.neurosurgery.columbia.edu/patient-care/conditions/spina-bifida-occulta">Spina Bifida Occulta</a> with <a href="https://www.stanfordchildrens.org/en/service/tethered-cord-syndrome">Tethered Cord Syndrome</a>). I want to one day build an AI system that supplements neuroimaging in detecting such cases to save people in the future from the inconveniences of this condition, and help them get the required surgery earlier.&nbsp;</p>
+
+
+
+<p>I have finally found myself in a career path that calls upon my quantitative abilities while also being applicable in any domain. Between completing my first machine learning internship behind me and winning the Data-Centric AI competition, many doors have opened up for me. I am looking forward to the next challenge in my AI journey! I aspire to leave behind a legacy and bring about meaningful change in society.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Nidhish:&nbsp;</strong></p>
+
+
+
+<p>My AI adventure began with the introduction of virtual assistants such as Siri and Google. The potential of machines to comprehend human language piqued my interest. However, I was too young to appreciate the concepts behind these technologies at the time. Therefore, my budding interest in AI was pushed to the back of my mind. When I came across <a href="https://www.youtube.com/watch?v=Lu56xVlZ40M">OpenAI&#8217;s Hide and Seek project</a>, which uses multi-agent Reinforcement Learning, I was fascinated by how agents simulated human behavior in way seven the researchers did not expect. After that I explored AI through a series of tiny side endeavors and projects. It didn&#8217;t sit well with me to implement models without first understanding how they worked.&nbsp;</p>
+
+
+
+<p>My first formal introduction to AI was through Andrew Ng&#8217;s Deep Learning specialization. I finished the entire course in the first few weeks of summer 2021. This knowledge directly contributed to winning the inaugural Data-Centric AI competition. Asfandyar and I are the AI track representatives at the Honors Academy at our university, and as such we strive to democratize AI by teaching more students about it and its benefits. Following Andrew Ng&#8217;s lead, we want to continue advocating the data-centric approach to AI as we aim to build a data-centric AI course with the support of one of our professors. I look forward to seeing what the next chapter of AI has in store for everyone.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p>2. <strong>Why you decided to participate in the competition</strong></p>
+
+
+
+<p>With our first-ever AI internships set for the summer, we wanted to fill time with other learning opportunities that were not coursework-based. Essentially, we were looking for an experience where we could apply and practice the deep learning fundamentals we had learned so far. We thought about partaking in competitions like NetHack but found that our prerequisite knowledge was somewhat lacking.</p>
+
+
+
+<p>We were familiar with DeepLearning.ai through Andrew Ng’s courses.It only seemed natural to apply what we learned from the DeepLearning.ai courses to their own competition!&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p>3.<strong> The techniques you used</strong></p>
+
+
+
+<p>Here you can find a brief introduction of the techniques we used in our 3rd place (85.45% on the leaderboard). For a full report on everything team Synaptic-AnN tried during the competition, please refer to documentation <a href="https://www.overleaf.com/read/gxdkymkvwkmy">here</a>.&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<p><strong><em>Manual data cleaning:&nbsp;</em></strong></p>
+
+
+
+<p>Like most other competitors, our initial instinct led us to manually sift through the dataset and remove any outliers, noisy, and ambiguous images. This reduced the competition dataset from 2880 images to 2613 images. Let’s call this dataset <strong><em>D</em></strong><strong>.</strong>&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<p><strong><em>Generating more data:&nbsp;</em></strong></p>
+
+
+
+<p>Since the competition allowed us to submit a maximum of 10,000 images amid training and validation sets (we did a 95/5 train-val split) we recruited friends and family to help us write 4353 additional Roman numerals. Let’s call this dataset <strong><em>H</em></strong><em>.</em><strong><em>&nbsp;</em></strong></p>
+
+
+
+<p>The reason we got multiple people to handwrite Roman numerals is because we wanted to stay as authentic to the nature of the task as possible. Augmenting over <strong><em>D</em></strong> to fill out the rest of the possible images did not seem like the best of ideas as we wanted to make sure the ResNet50 generalized well. Using GANs was something we wanted to explore, but realized it would have introduced unwanted artifacts and would have been computationally expensive. Having Roman numerals from a wide variety of distributions is what we were going for here.&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<p><strong><em>Distribution and Style Replication:&nbsp;</em></strong></p>
+
+
+
+<p>It was theorized that humans have consistent handwriting (Figure 1). As a result, an attempt was made to replicate the handwriting style for each number. The images of the label book were used assuming that the label book would be a subset of the hidden test set. This concept aimed to replicate the distribution of the hidden test set. An example of this method can be seen in Figure 2 and Figure 3. Let’s call this dataset <strong><em>L</em></strong>.</p>
+
+
+
+<p><img loading="lazy" width="532" height="178" src="https://lh4.googleusercontent.com/tF6GtVxofA4l9zH5vnNy6784qm7wMEilHCxijKv7bhDo1kHTrUvhevz22tiwtmqO-8x56_EURaBYpagVhp17IbxFNkRtf3ayggo2731Pret7lG5q8F3DDBpsxvqMdx7d0X6AgoMU=s1600"></p>
+
+
+
+<p><em>Figure 1: Images from the label book with the same style.</em></p>
+
+
+
+<p></p>
+
+
+
+<p><strong><img loading="lazy" width="624" height="315" src="https://lh4.googleusercontent.com/AU1lytCqVr13Eahx8l3KffxY15DdA_aSidvzRmvbe1bcID20oJylkiW3M8DxQ_HryG3O_Nda7d0Eekc7KmmVPWP2Nz97hyIzVKiwU4_LUauVuFylBSt4vm2EiO-ETjFACrHArmh_=s1600"></strong></p>
+
+
+
+<p><em>Figure 2: Style replication applied on class I of the label book — images bordered in blue are the original label book images.</em></p>
+
+
+
+<p></p>
+
+
+
+<p><strong><img loading="lazy" width="624" height="159" src="https://lh3.googleusercontent.com/On558FFdLHVOPikzf-FH-mzNCIRkYEk4MUHKPA3-F-7WvDOSNLm7GX7sGmwzH3E-p0xFEe0cyXGE1Xl27a4J5qzDhsWQrXS-8PWqkDRnau66Dl2OgPg_IHwayj2y79qBEyhEuhKH=s1600"></strong></p>
+
+
+
+<p><em>Figure 3: Style replication applied on class IV of the label book — images bordered in blue are the original label book images.&nbsp;</em></p>
+
+
+
+<p></p>
+
+
+
+<p>And so, the combination of <strong><em>D</em></strong>, <strong><em>H</em></strong>, and <strong><em>L</em></strong> happened to be our base dataset to be refined by the following data-centric approaches.&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<p><strong><em>Five Crops:</em></strong></p>
+
+
+
+<p>For an image, top-right, top-left, bottom-right, bottom-left and centre crops were performed (Figure 4). Images that could lead to misclassification due to improper crops were discarded (e.g. an image of a badly cropped <em>III</em> could look like a <em>II</em>).&nbsp;</p>
+
+
+
+<p><strong><img loading="lazy" width="624" height="135" src="https://lh6.googleusercontent.com/ELeIC9yqBrVjLuUrI8FeEScbsyVZzcDg1PQFqbltrip0Yfs96xrAYdjfARlXYGLG5-Oeb8FIqF8N_PtAUN_M2ndWOboydI9CKSlyFQaunxNhbjGvjQfCEhv5uzbVJd_I7c981Deg=s1600"></strong></p>
+
+
+
+<p><em>Figure 4: Five Crops applied to an image of class IX.</em></p>
+
+
+
+<p></p>
+
+
+
+<p><strong><em>Aspect Ratio Standardization:</em></strong></p>
+
+
+
+<p>All images with width-height or height-width ratio being larger than 1.75 (and in some cases larger than 1.5) were cropped into a square the size of their minimum dimension. This ensured the quality of the images when resized to 32-by-32.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong><em>Auto Augmentation:&nbsp;</em></strong></p>
+
+
+
+<p>We had set up an augmentation pipeline that would generate submission datasets based on parameters we had to manually tweak (eg; the degree of rotations, magnitude of shearing, etc.).&nbsp;&nbsp;</p>
+
+
+
+<p>We explored the viability of using <a href="https://arxiv.org/abs/1805.09501">AutoAugment</a> to learn the augmentation technique parameters, but due to limited computational resources and insufficient data, the results of the <a href="http://ufldl.stanford.edu/housenumbers/nips2011_housenumbers.pdf">paper</a> on the SVHN dataset were used on the competition dataset. We observed that augmentation techniques such as Solarize and Invert were&nbsp; ineffective and hence removed them from the final SVHN-policy. This method resulted in a significant performance boost and was chosen because the SVHN dataset is grayscale and has to do with number representations (housing plates). We also explored other auto augment policies based on CIFAR10 and ImageNet ,but these were not as effective as SVHN.&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<p><strong><em>Filtering by Vote:&nbsp;</em></strong></p>
+
+
+
+<p>A voting ensemble was deployed for filtering of noisy and ambiguous images. The ensemble comprised of 5 models:&nbsp;</p>
+
+
+
+<ul><li>ResNet34 (denoted as m0 — a &#8220;close relative&#8221; to the competition model)</li><li>AlexNet (denoted as m1)</li><li>LeNet5 (denoted as m2)</li><li>AllConvNet (denoted as m3)</li><li>VGG-16 (denoted as m4)</li></ul>
+
+
+
+<p></p>
+
+
+
+<p>Approximately 70,000 training images were used. Data was collected from the internet (use of online tools), through surveys (asked people to handwrite roman numerals for us), and using our augmentation pipeline (this helped us get up to 70k images). Again, the augmentation pipeline applied specific augmentation parameters set by us and would generate a balanced dataset. Given an image, <strong><em>I</em></strong>, the ensemble outputs a softmax probability matrix, <strong><em>∑</em></strong>, where each row represents the softmax probability vector from a model, mi, within the ensemble and where the columns correspond to a certain class label, <strong><em>c</em></strong>.</p>
+
+
+
+<p><img loading="lazy" width="409" height="130" src="https://lh5.googleusercontent.com/L3IHvOSR1JUHpKxJeHSF2hFvOFaofcHxJHyWpWn2VPTqt_LTzJNWt0nVcnKaan_teM7ZiecQe1dyGB3pUewUWHVdARWKSGv2BZPCcG6-bvWk__sgVwhgNHEBLqs_-Bj3z1kFZNaB=s1600"></p>
+
+
+
+<p><img loading="lazy" width="441" height="27" class="wp-image-25137" style="width: 524px;" src="https://www.deeplearning.ai/wp-content/uploads/2021/10/Screen-Shot-2021-10-20-at-9.10.05-AM.png" alt="" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/10/Screen-Shot-2021-10-20-at-9.10.05-AM.png 441w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Screen-Shot-2021-10-20-at-9.10.05-AM-300x18.png 300w" sizes="(max-width: 441px) 100vw, 441px" />then <strong><em>I</em></strong> is deemed as &#8220;noisy&#8221; or &#8220;ambiguous&#8221;. This method saved hours of manual cleaning and helped to clean noisy labels. The images deemed as noisy or ambiguous were also manually checked by humans to ensure robustness. Originally, higher values for the threshold parameter were used for image selection but given time constraints and an unoptimized ensemble (some hyperparameters were left untuned due to time constraints), this was a limited approach.</p>
+
+
+
+<p><strong><em>The Winning Submission:</em></strong></p>
+
+
+
+<p>Now that you are aware of the concepts and techniques used to produce our winning submission, here are the steps we took to refine the final dataset. </p>
+
+
+
+<ol><li>Merge <strong><em>D</em></strong>, <strong><em>H</em></strong>, and <strong><em>L</em></strong> and generate 1500 SVHN-policy auto augmented images per class — let the resulting dataset be denoted by <strong><em>X</em></strong>.<ol><li>Note: Images in <strong><em>D</em></strong> and <strong><em>H</em></strong> had an aspect ratio less than 1.75. This was done by manual cropping. Furthermore, these datasets were ran through the voting ensemble at  <img loading="lazy" width="51" height="17" class="wp-image-25132" style="width: 51px;" src="https://www.deeplearning.ai/wp-content/uploads/2021/10/Screen-Shot-2021-10-20-at-8.39.08-AM.png" alt=""> while retaining some high entropy images (manually selected).  </li></ol></li><li>Run <strong><em>D</em></strong> and <strong><em>H </em></strong>through the voting ensemble at <img loading="lazy" width="60" height="20" class="wp-image-25135" style="width: 60px;" src="https://www.deeplearning.ai/wp-content/uploads/2021/10/Screen-Shot-2021-10-20-at-9.46.14-AM.png" alt=""> Merge the resulting dataset with <strong><em>L</em></strong> then perform 80 Five Crops per class — let the resulting dataset be denoted by <strong><em>Y</em></strong>. </li><li>Any excess images in <strong><em>X</em></strong> and <strong><em>Y</em></strong> are randomly deleted while considering the combined size of the original <strong><em>D</em></strong>, <strong><em>H</em></strong>, and <strong><em>L</em></strong>. </li><li>Finally merge <strong><em>D</em></strong>, <strong><em>H</em></strong>, <strong><em>L</em></strong>,<strong><em> X</em></strong>,<strong><em> </em></strong>and<strong><em> Y </em></strong>(class are balanced). </li></ol>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p>4. <strong>Your advice for other learners&nbsp;</strong></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Asfandyar:&nbsp;</strong></p>
+
+
+
+<p>I am a major advocate of life-long learning, and in the context of AI, I would advise others to become an &#8220;all-rounder.&#8221; What I mean by this is to be open-minded to the various topics in AI and build an adequate level of knowledge in MLOps, natural language processing, computer vision, reinforcement learning, data analytics, and so on. I believe it is better to be an 8/10 on multiple things, rather than a 10/10 in one or two things and a 4/10 in everything else. This way, no matter who you are speaking to, what project you are working on, or what career opportunities may arise, you will always be prepared.&nbsp;</p>
+
+
+
+<p>This approach naturally instilled in me a growth mindset, and I hope it can be beneficial for others. I was never the most enthusiastic about data cleaning.. The Data-Centric AI competition helped put into perspective how basic methods such as data cleaning and augmentation can increase performance on state-of-the-art models by up to 20%. This helped me to fall in love with the data-centric movement.&nbsp; I plan to be an ambassador for it wherever my career takes me. Keep an open mind, never stop learning, and try to be a jack of all trades!</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Nidhish:&nbsp;</strong></p>
+
+
+
+<p>My advice would be to adopt experiential learning. Take a few courses, like the ones by DeepLearning.ai, and then jump right into a project. Build up your portfolio on GitHub and work on topics you are truly passionate about. It is very hard to define what path you should take to get started on your AI journey, and you do not want to get stuck in “tutorial hell”. You want to dip your toes in various sub-fields and applications of AI through various projects. This will ultimately help you decide what your calling is!<br>In our conference with Andrew Ng, he advised us to watch his <a href="https://www.youtube.com/watch?v=733m6qBH-jI">CS230 lecture on career advice</a> — and boy, was it helpful! All in all, AI practitioners are needed everywhere, so be yourself and keep learning!</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/data-centric-ai-competition-synaptic-ann/">How We Won the First Data-Centric AI Competition: Synaptic-AnN</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+        </item>
+        <item>
+            <title>How We Won the First Data-Centric AI Competition: Innotescus</title>
+            <link>https://www.deeplearning.ai/data-centric-ai-competition-innotescus/</link>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Tue, 19 Oct 2021 04:33:01 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25045</guid>
+            <description>
+                <![CDATA[<p>In this blog post, Innotescus, one of the winners of the Data-Centric AI Competition, describes techniques and strategies that led to victory. Participants received a fixed model architecture and a dataset of 1,500 handwritten Roman numerals. Their task was to optimize model performance solely by improving the dataset and dividing it into training and validation sets. The dataset size was capped at 10,000.</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/data-centric-ai-competition-innotescus/">How We Won the First Data-Centric AI Competition: Innotescus</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<figure class="wp-block-image size-large is-style-full-width"><img loading="lazy" width="1024" height="576" src="https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-01-1024x576.png" alt="" class="wp-image-25046" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-01-1024x576.png 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-01-300x169.png 300w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-01-768x432.png 768w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-01-1600x901.png 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-01-1536x865.png 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-01-2048x1153.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p class="is-style-text-sm-mobile"><em>I<em>n this blog post, Innotescus, one of the winners of the Data-Centric AI Competition, describes techniques and strategies that led to victory. Participants received a fixed model architecture and a dataset of 1,500 handwritten Roman numerals. Their task was to optimize model performance solely by improving the dataset and dividing it into training and validation sets. The dataset size was capped at 10,000. You can find more details about the competition</em> <a href="https://https-deeplearning-ai.github.io/data-centric-comp/">here</a>.</em></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Your personal journey in AI&nbsp;</strong></p>
+
+
+
+<p>Shashank, Chris, and Rob first worked together at ChemImage Corporation, leveraging machine learning with dense hyperspectral imaging datasets to identify chemical signatures. In order to accurately detect concealed explosives, drugs, and different biological structures, the team was routinely required to build high-quality, application-specific training datasets. Building these training datasets was time-intensive—no available off-the-shelf tools could deliver what they needed. After a few years of successfully building high-quality datasets, the team recognized the widespread need for the tools they’d built themselves, and founded <a href="https://innotescus.io/">Innotescus</a>. Innotescus is a group of scientists, engineers, and entrepreneurs with a vision for better AI. We understand and appreciate the importance of having detailed insights into data, and using those insights to create objectively high-quality data for high-impact machine learning models.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Why you decided to participate in the competition</strong></p>
+
+
+
+<p>We decided to enter the Data-Centric AI competition for a few reasons. First, the challenge aligns closely with the mission and vision that we’ve established at Innotescus. Our goal is to illuminate the black box of machine learning with deep insights into data, so being able to effectively curate a dataset is at the core of our focus. Second, this was a great opportunity to put the tools that we’ve built to the test and see how well we stack up. Finally, we feel strongly that the machine learning universe — and the world at large — would benefit immensely from explainable, approachable AI, and we want to lead the movement in that direction. The more we work to demystify the world of machine learning, the faster we can get to safer and more responsible technology that&nbsp; makes the world a better place.</p>
+
+
+
+<p><strong>The techniques you used for the Data-Centric AI competition</strong></p>
+
+
+
+<p>Our method can be split into two parts: data labeling and balancing data distributions.</p>
+
+
+
+<p><strong>Data Labeling</strong></p>
+
+
+
+<p>As Prof Andrew Ng and others have highlighted, and as we have seen in our own experiences, the first and arguably largest source of problems in creating a high-quality training dataset comes from data labelling errors and inconsistencies. <strong>Having a consistent set of rules for labeling and a strong consensus among annotators/field experts mitigates errors and greatly reduces subjectivity.&nbsp;</strong></p>
+
+
+
+<p>For this competition, we broke the dataset cleaning process into three parts:</p>
+
+
+
+<p></p>
+
+
+
+<ol><li><strong>Identify noisey images</strong></li></ol>
+
+
+
+<p>This was a no-brainer. We removed noisey images from the training set. These images clearly don&#8217;t correspond to a particular class, and would be detrimental to model performance.</p>
+
+
+
+<p><img loading="lazy" width="394" height="124" src="https://lh3.googleusercontent.com/pw5UZ-3cRm-a2c28eBSSlXYa5N-b3sgMeecNfheB0OD9n207JIS56jpz_ghcOKyN9vZY8wrRUOIbqPKvscDlWruKuG2gEAle4ZTBAFjtXD7cdEwfqOldUV1j3QLncx32V2iEv_ZZ=s1600"></p>
+
+
+
+<p><em>Imagine being the annotator assigned to these&#8230;</em></p>
+
+
+
+<p></p>
+
+
+
+<p>2. <strong>Identify incorrect classes</strong></p>
+
+
+
+<p>We corrected mislabelled data points . Human annotators are prone to mistakes, and having a systematic QA or review process helps identify and eliminate those errors.</p>
+
+
+
+<p><img loading="lazy" width="351" height="199" src="https://lh6.googleusercontent.com/P0gJNeMpiW74aHklFAj4La_GaZMkCr22cjMOd6kZRErGuyM7UJ8ej5udtIYXygxVat1WpRLCFZxrNaBhZh07Me7LxJwRBOdLLzdUGnWUgvt7tQGSyJK3xxZEbLSUuhF5GP8W8Kha=s1600"></p>
+
+
+
+<p><em>Mislabelled images in the Roman-Mnist dataset</em></p>
+
+
+
+<p></p>
+
+
+
+<p>3. <strong>Identify ambiguous data points</strong></p>
+
+
+
+<p>We defined consistent rules for ambiguous data points. For example, in the images shown below, we consider a data point as class 2 if we see a clear gap between the two vertical lines (top row), even when they are at an angle. If there is no identifiable gap, we consider the datapoint as class 5 (bottom row). Having pre-defined rules helped us reduce ambiguity more objectively.</p>
+
+
+
+<p><img loading="lazy" width="246" height="163" src="https://lh6.googleusercontent.com/4tD1KIb4t9WUQqbQbGCN_BYzPPfKep6eOXwyLxhrlg07k1lGPiiPz4Yf2z150GwdDLHmnTQ6NUINWXiYGoacLO-kDCN0CC8hdVJGw7ugdZ98Rnap7_fA8IVwp8I5xQ99LqQpP86e=s1600"></p>
+
+
+
+<p><em>Ambiguous&nbsp; images in the Roman-Mnist dataset. According to our labelling criteria, the top row is labelled as II, while the bottom row is labelled as V.</em></p>
+
+
+
+<p>This three-step process cut down the dataset to a total of 2,228 images, a 22% reduction from the provided dataset. This alone resulted in 73.099% accuracy on the test set, an approximately 9% boost from the baseline performance.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Balancing Data Distributions</strong></p>
+
+
+
+<p>When we collect training data in the real world, we arguably capture a snapshot of data in time, invariably introducing hidden biases into our training data. Biased data most times leads to poor learning. One solution is reducing ambiguous data points and ensuring balance along major dimensions of variance within the dataset.</p>
+
+
+
+<ol><li>Rebalancing Training and Testing Datasets</li></ol>
+
+
+
+<p>Real world data has a lot of variance built into it. This variance almost always causes unbalanced distributions, especially when observing a specific feature or metric. When augmented, these biases can get amplified. The result? Throwing more data at your model may drive you further away from your goal.</p>
+
+
+
+<p>We observed this with two of our submissions in this competition. The two submissions contained the same data, just split differently between training and validation (80:20 and 88:12 respectively). We saw that <strong>the addition of 800 images to the training set actually reduced the accuracy on the test set by about 1.5%.</strong> After this, our approach shifted from “more data” to “more <em>balanced </em>data.”</p>
+
+
+
+<ol start="2"><li>Rebalancing Subclasses Using Embeddings</li></ol>
+
+
+
+<p>The first imbalance we observed was in the upper and lowercase distribution within each class. For example, our “cleaned” data contained 90 images of lowercase class 1 and 194 images of uppercase class 1. Staying true to our hypothesis, we needed equal representation (500 images) from each case per class (totalling 10,000 images limit as per the rules of the competition).</p>
+
+
+
+<p><img loading="lazy" width="561" height="197" src="https://lh4.googleusercontent.com/R8qgOyZhKdxgVXJTCqRxaxaFUA8LnMpBsy-4VHHhkVVIy2X72AnNKwyUZcrXR1Vxc_WhSjhm8EfWAxFzWj7LIRj-mAwZvFw7vZZ5HKpOjSBA_vovY3KDv5j0R1QTieDTr88FOj10=s1600"></p>
+
+
+
+<p><em>Using the Innotescus’ integrated Dive chart visualizations, we can see that within each class, there is an imbalance between lower and upper case numerals.</em></p>
+
+
+
+<p>We then further explored clusters within each uppercase and lowercase subset. We subdivided each case into 3 clusters using K-means clustering on the PCA-reduced ResNet-50 embeddings.</p>
+
+
+
+<p><img loading="lazy" width="501" height="128" src="https://lh6.googleusercontent.com/h1MPOm9sG0oZJV8HnOp66LJ_VMDbzNB6bhswgNLlFyKV13b3Eft3MyCa5EiwmZ3hF9AAWOPYp9DvS_4c_V6o7MelhjR6jQP4JERp5eFo__M_x7fpR0R0ugO3zum0VTxL3a0ZAnlX=s1600"></p>
+
+
+
+<p>Once we had these clusters (shown below), we simply balanced each of the sub-clusters with augmented images resulting from translation, scale and rotation.</p>
+
+
+
+<p><img loading="lazy" width="580" height="211" src="https://lh6.googleusercontent.com/W69oLT71LRQpOm8r-_VmGid-v01p6OhKUDjkaGtIhTeyeMwaraJH_84gwhwrcIwk_z6jjVWWLjngqFry_rJWvzS2GzA0XhW6vHn_DfSqpl2QevOAvYOVTQMgldGZA-xw_xkqZGMa=s1600"></p>
+
+
+
+<p><em>A UMap visualization of clusters &#8211; separated by color &#8211; obtained on lowercase class</em></p>
+
+
+
+<p>     3. Rebalancing Edge Cases with Hard Examples and Augmentation</p>
+
+
+
+<p>Towards the end of the competition, we observed that there were certain examples in our validation set that we consistently misclassified.&nbsp; Our goal here was to help the model classify these examples with higher confidence.</p>
+
+
+
+<p>We believe that these misclassifications are caused by an underrepresentation of “edge case” examples in our training set. Below is one such example; this is a III being misclassified as a IV.</p>
+
+
+
+<p><img loading="lazy" width="624" height="69" src="https://lh6.googleusercontent.com/An4W5CRykN0rH8W9PkKcb2hL60H8mdv9M9P3w-aVdYA2mQiwDNRd7rjGAiiyMfjrUTAxaWID1blqHwJBPN6f3TGDRjYaSNnpw5MQZE-MBC2UpRm_79bXPWLDsKOjJj95AAHjOdjd=s1600"></p>
+
+
+
+<p><em>The ResNet50 output for a hard example. The model classifies the image as a IV with a raw prediction value of 2.793, but the prediction value for class III is only slightly lower at 2.225.&nbsp;</em></p>
+
+
+
+<p>From the model prediction output, we observed that even though we misclassify this example, the values for class III and class IV are very close. We wanted to identify more examples on or near the “decision boundary” and add them to our training set, so we defined a difficulty score as described below:</p>
+
+
+
+<p><img loading="lazy" width="378" height="139" src="https://lh6.googleusercontent.com/hFwzT8o14C09U27j5cqZcUDKXqKtls80eFk9EePHbsGYW_zVcmSThVKGqmnFNxQk2NtBidtl3H8h3W5Zgr7tYd3m4SrywV3ma-OQd8Pdyq4vE5-yG4gfhUByC6J_WXpcRNbNP8b1=s1600"></p>
+
+
+
+<p>Where Pomax is the max predicted output and Po2nd maxis the next best predicted value. This describes the percentage difference between the first- and second-most likely predicted values; For the output shown in the example, the difficulty score is 2.793 &#8211; 2.2252.793=0.203. We then added a constraint; if the difficulty score is less than 0.5, we consider that as a “hard example.”&nbsp; This process gave us an additional 880 images that we added to our training set.</p>
+
+
+
+<p><img loading="lazy" width="254" height="147" src="https://lh5.googleusercontent.com/SYBCqqwj7Mxqce6GBEQeGTTelwA-v5SiqtEdDe5DPlvCxSNbbjbo0nz956CHS6mja2NPot4W7JMsXfQJtKY_D-01OvT3th0jz85B6xx1dfIb0FWwyqr4OBgOx9Gp3PP_Axu8xyLY=s1600"></p>
+
+
+
+<p><em>A sample of the hard examples found using the difficulty score</em></p>
+
+
+
+<p>Additionally, we cropped the images by a few pixels to reduce the white space around the Roman numerals and used different iterations of dilation and erosion. Some of these additional examples are shown above. However, the addition of these 880 “hard” images meant that we had to remove 880 existing images from our validation set. To do this, we studied the histogram distribution of the difficulty score for each class in the training dataset, and matched its distribution in the validation set. Matching the training and validation difficulty scores was the best way to avoid over- or underfitting to the training dataset, and ensure optimal model performance.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Your advice for other learners</strong></p>
+
+
+
+<p>Getting started with machine learning has never been easier than today. We have great tutorials, courses, research papers and blogs available at our fingertips. We have powerful environments like Google Colab and frameworks like Tensorflow that allow us to design and experiment with amazing ML algorithms using state-of-the art models with just a few lines of code. However, good training data still remains one of the biggest bottlenecks for creating a deployable solution. Our advice for other learners is to pay particular attention to your data: Garbage in; garbage out.&nbsp;</p>
+
+
+
+<p>We at Innotesus firmly believe that having a systematic approach to creating datasets not only improves the performance of our ML solutions, but also significantly helps reduce the time and resources required. We suggest breaking the process down into the following key questions:</p>
+
+
+
+<ol><li><strong>Know your problem</strong> &#8211; What are you trying to solve? Having a good understanding of the scope of the problem you are trying to solve greatly helps in defining what kind of data is required.</li><li><strong>Know your data</strong> &#8211; Are your annotations consistent? Define clear rules for annotation and be thorough. Always have a quality control check to catch any annotation errors. Beyond right and wrong, do you understand your data? Explore your data distribution, hidden biases, outliers, etc. so you can a) know the edge cases and limits of your solution, and b) identify holes in the dataset and correct them.</li><li><strong>Know your impact</strong> &#8211; How do your choices affect the results? Explore and experiment to understand how different dataset splits, augmentations, and data parameters affect your model performance. As we saw when rebalancing our training and testing datasets, more data isn’t always better!</li></ol>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/data-centric-ai-competition-innotescus/">How We Won the First Data-Centric AI Competition: Innotescus</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+        </item>
+        <item>
+            <title>How We Won the First Data-Centric AI Competition: KAIST &#8211; AIPRLab</title>
+            <link>https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/</link>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Tue, 19 Oct 2021 04:22:19 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25042</guid>
+            <description>
+                <![CDATA[<p>In this blog post, KAIST-AIPRLab, one of the winners of the Data-Centric AI Competition, describes techniques and strategies that led to victory. Participants received a fixed model architecture and a dataset of 1,500 handwritten Roman numerals. Their task was to optimize model performance solely by improving the dataset and dividing it into training and validation sets. The dataset size was capped at 10,000.</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/">How We Won the First Data-Centric AI Competition: KAIST &#8211; AIPRLab</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<figure class="wp-block-image size-large is-style-full-width"><img loading="lazy" width="1024" height="576" src="https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-08-1024x576.png" alt="" class="wp-image-25043" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-08-1024x576.png 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-08-300x169.png 300w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-08-768x432.png 768w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-08-1600x901.png 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-08-1536x865.png 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-08-2048x1153.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p class="is-style-text-sm-mobile"><em><em>In this blog post, KAIST-AIPRLab, one of the winners of the Data-Centric AI Competition, describes techniques and strategies that led to victory. Participants received a fixed model architecture and a dataset of 1,500 handwritten Roman numerals. Their task was to optimize model performance solely by improving the dataset and dividing it into training and validation sets. The dataset size was capped at 10,000. You can find more details about the competition</em> <a href="https://https-deeplearning-ai.github.io/data-centric-comp/">here</a>.</em></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p><strong># Your personal journey in AI</strong></p>
+
+
+
+<ol><li><strong>Why did you decide to learn AI?</strong></li></ol>
+
+
+
+<p>Our team members are interested in various aspects of machine learning as we come from different undergraduate backgrounds. We are especially interested in the practicality of AI as we are witnessing drastic changes that are taking place before our eyes. However, we are also concerned with double-edged aspects of AI, including room for explainability, computational efficiency, and social bias. We believe that every practical application should be backed by robust theory, thus we decided to delve deeper into AI.</p>
+
+
+
+<p></p>
+
+
+
+<ol start="2"><li><strong>Why did you decide to join the lab?</strong></li></ol>
+
+
+
+<p>We come from a variety of undergraduate backgrounds such as math, computer science, and electronics engineering and have diverse interests in different domains of machine learning. Nevertheless, we are all interested in the common idea and theory behind these different domains; how machines think and make decisions. Our lab is supervised by Prof. Kee-Eung Kim, who has been working in the area of reinforcement learning, or more generally, models and algorithms for decision theoretic problems. As such, joining Prof. Kim’s lab was a natural choice.</p>
+
+
+
+<p><strong># Why did you decide to participate in the competition?</strong></p>
+
+
+
+<p>We first heard about the competition from our advisor Prof. Kee-Eung Kim, who encouraged us to participate. We all thought the premise of the competition was interesting since it nicely captures the practical question we face when we embark on any AI project: how much data is sufficient and how do we collect it?&nbsp; We also wanted to see whether we could identify a concrete thesis topic from the challenges we had to deal with from the competition.</p>
+
+
+
+<ul><li><strong>What were the challenges and what have you learned through competition?</strong></li></ul>
+
+
+
+<p>At the beginning of the competition, our advisor introduced us to papers on data-centric methods, such as techniques for data valuation and learning from noisy data. We also searched for potential papers along this direction that could be applied to the competition setting. However, we struggled because most of these algorithms were not entirely effective, a typical theory-practice gap. We also sought advice from members from Samsung Research, who had rich and practical experience in AI projects involving real-world, scarce and noisy datasets. Through trial and error, we learned that it was important to find a simple yet creative method rather than hoping that the latest method would magically solve the problem.</p>
+
+
+
+<p><strong># The techniques you used</strong></p>
+
+
+
+<p>We wanted to take a more fundamental algorithmic approach that can be generalized to different data domains. Moreover, we restricted ourselves to use the information only provided in the competition; that is, we do not use any external data sources including pretrained models. We created a pipelined method that can be put into the following steps: 1. Data Valuation, 2. Auto Augmentation, 3. Cleansing with a Contrastively Learned Model, 4. Edge Case Augmentation, and 5. Cleansing.</p>
+
+
+
+<p></p>
+
+
+
+<ol><li><strong>Data Valuation</strong></li></ol>
+
+
+
+<p>We began with the idea that deep learning models are optimized with gradient descent. A commonly used analogy compares this procedure to a hiker walking down a valley with milestones along the way. However, the hiker can get lost if the provided milestones are misleading. Similar problems can occur in deep learning as well, where the model is trained on misleading examples. Hence, we would need to remove such train data points. Our initial experiments with data valuation with reinforcement learning [1] turned out to be ineffective for an extremely noisy dataset.</p>
+
+
+
+<p>We can take a peek at how a training data point influences the model’s prediction on a validation data point by the method of influence function [2]. The basic idea behind this is “upweighting” a particular training point by a small amount and see how this affects the model prediction at inference time. We incorporated HyDRA [3,] which uses the gradient of validation loss (also called hypergradient) to efficiently approximate the local influence of a training point on the model optimization trajectory. From there, we deleted training data points with negative influence.&nbsp;</p>
+
+
+
+<p>However, this is by no means a perfect algorithm to cleanse all noisy points from the dataset because our validation set was too small. Our experiments showed that the algorithm could remove the majority of noisy data, yet this method could still remove semantically meaningful images or do not remove absolutely irrelevant images that were mixed into the training dataset. Hence, we applied additional cleansing operations before which we proceeded with augmentation.</p>
+
+
+
+<p></p>
+
+
+
+<ol start="2"><li><strong>Auto Augmentation</strong></li></ol>
+
+
+
+<p>Augmentation is a common technique in computer vision among other domains to create more training samples and to build a more robust model. However, finding a suitable set of transforms for augmentation often involves manual labor and is therefore time consuming. Even though the competition dataset was small and simple enough to find decent augmentation policies by hand, we resorted to auto augmentation to reduce human intervention.&nbsp;</p>
+
+
+
+<p>These auto augmentation algorithms look for the best augmentation policies after receiving feedback on validation data. Among many proposed methods, we used Faster Auto Augment [4], which considerably reduces search time by making the algorithm fully differentiable. In order to preserve as much information, we applied augmentations on 64 x 64 images. Additionally, we balanced the number of samples in each class to solve the class imbalance.&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<ol start="3"><li><strong>Cleansing with a Contrastively Learned Model</strong></li></ol>
+
+
+
+<p>Even after cleansing and augmentation, there was still noise in the data. Moreover, augmented images sometimes had wrong semantic labels. For instance, images for ‘iv’ could be translated too far to the right to become ‘i’. To remove such noise and fix the mislabeled data points, we used feature representations from a Siamese Network [5] that has been trained on the dataset obtained so far in a contrastive and supervised fashion.</p>
+
+
+
+<p>We projected learned latent features of the Siamese network onto 2D space via t-SNE [6] and used visualizations to examine the clusters. We could identify the data points that were obviously mislabeled or meaningless from this visualization. Using the k-nearest neighbor distances and labels, we fixed the label if it was obviously a labeling error (all neighbors having the same but different label from the point of interest) or dropped the data points if it did not obviously belong to a cluster (the closest neighbor being far from point of interest or its neighbors being only in a certain direction from the data point).</p>
+
+
+
+<p></p>
+
+
+
+<ol start="4"><li><strong>Edge Case Augmentation</strong></li></ol>
+
+
+
+<p>There still existed some edge cases that persisted through these procedures due to their small proportions. Hence, we needed to identify and augment these edge case samples. We decided to use the representation of the model trained with data upto this point. We projected the latent features onto 2D space via t-SNE as we have done in the previous step. We could identify data points that obviously belonged to a cluster but far from the closest same-class neighbor as edge-case data points. We augmented such isolated data points in each cluster.</p>
+
+
+
+<p></p>
+
+
+
+<ol start="5"><li><strong>Cleansing</strong></li></ol>
+
+
+
+<p>Finally, we cleaned the dataset once more in the same way as step 3 after further edge case augmentations. After this pipeline, we could achieve 0.84711 accuracy on the test dataset. We will continue to evolve and simplify the approach to work in domains where external data or pretrained models are not readily available.&nbsp;</p>
+
+
+
+<p>References</p>
+
+
+
+<p>[1] Data valuation using reinforcement learning. ICML. 2020</p>
+
+
+
+<p>[2] Understanding Black-box Predictions via Influence Functions. ICML. 2017</p>
+
+
+
+<p>[3] Hydra: Hypergradient data relevance analysis for interpreting deep neural networks. AAAI. 2021</p>
+
+
+
+<p>[4] Faster AutoAugment: Learning Augmentation Strategies using Backpropagation. ECCV. 2020</p>
+
+
+
+<p>[5] We modified https://keras.io/examples/vision/siamese_contrastive/</p>
+
+
+
+<p>[6] Visualizing data using t-sne. Journal of machine learning research. 2008</p>
+
+
+
+<p></p>
+
+
+
+<p><strong># Your advice for other learners</strong></p>
+
+
+
+<p>Because each of the team members had different perspectives, we were able to come up with different ideas while working together. These diverse approaches have been the driving force behind the development of our method and yielded good results. We hope that you will always accept the diverse perspectives around you and share your opinions with others.</p>
+
+
+
+<p>&#8212;-</p>
+
+
+
+<p>If you have any questions about our method or anything, you can contact Youngjune Lee (yjlee511@gmail.com), and Oh Joon Kwon (ojkwon@ai.kaist.ac.kr)</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/">How We Won the First Data-Centric AI Competition: KAIST &#8211; AIPRLab</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+        </item>
+        <item>
+            <title>How I Won the First Data-centric AI Competition: Johnson Kuan</title>
+            <link>https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/</link>
+            <dc:creator>
+                <![CDATA[Laura B]]>
+            </dc:creator>
+            <pubDate>Tue, 19 Oct 2021 04:17:24 +0000</pubDate>
+            <category>
+                <![CDATA[Community]]>
+            </category>
+            <guid isPermaLink="false">https://www.deeplearning.ai/?p=25039</guid>
+            <description>
+                <![CDATA[<p>In this blog post, Johnson Kuan, one of the winners of the Data-Centric AI Competition, describes techniques and strategies that led to victory. Participants received a fixed model architecture and a dataset of 1,500 handwritten Roman numerals. Their task was to optimize model performance solely by improving the dataset and dividing it into training and validation sets. The dataset size was capped at 10,000.</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/">How I Won the First Data-centric AI Competition: Johnson Kuan</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+<figure class="wp-block-image size-large is-style-full-width"><img loading="lazy" width="1024" height="576" src="https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-05-1024x576.png" alt="" class="wp-image-25040" srcset="https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-05-1024x576.png 1024w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-05-300x169.png 300w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-05-768x432.png 768w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-05-1600x901.png 1600w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-05-1536x865.png 1536w, https://www.deeplearning.ai/wp-content/uploads/2021/10/Banner_Data-Centric_AI_Winners_2400x1351-05-2048x1153.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p class="is-style-text-sm-mobile"><em><meta charset="utf-8"><em><em>In this blog post, Johnson Kuan, one of the winners of the Data-Centric AI Competition, describes techniques and strategies that led to victory. Participants received a fixed model architecture and a dataset of 1,500 handwritten Roman numerals. Their task was to optimize model performance solely by improving the dataset and dividing it into training and validation sets. The dataset size was capped at 10,000. You can find more details about the competition</em> </em><a href="https://https-deeplearning-ai.github.io/data-centric-comp/">here</a>.</em></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Your personal journey in AI</strong></p>
+
+
+
+<p>My journey in AI began in 2014 when I took an introductory Machine Learning (ML) course from the California Institute of Technology (Caltech) delivered online through edX. The course was called “Learning From Data” and it was taught by professor Yaser Abu-Mostafa. After the first few lectures and homework assignments I was hooked! The topics combined my passion for mathematics and computer science into something that seemed magical at the time: teaching machines to learn from data.</p>
+
+
+
+<p>After taking my first ML course, I began reading as many books as I could on the topic (e.g. Tom Mitchell’s “Machine Learning”) and working on side projects to build ML models with free open datasets published online. After several months of self-study, I decided to pursue formal education in ML and was accepted to Georgia Tech’s MS Computer Science program (specializing in ML) where I took graduate courses in AI/ML, robotics, computer vision, and big data analytics. I was fortunate to learn from luminaries in the field such as Sebastian Thrun and get exposure to the many use-cases of AI/ML in various industries.</p>
+
+
+
+<p>In my career, I first worked on AI/ML in AT&amp;T’s marketing organization where I built ML models to predict subscriber behaviors. I was fortunate to have met leaders at AT&amp;T who gave me new opportunities to apply what I learned at Georgia Tech. After AT&amp;T, I joined an AI startup called Whip Media where I led the Data Science team to develop new models that transformed the global content licensing entertainment ecosystem through proprietary data and predictive insights. Fast forward to today, I am at DIRECTV leading the implementation of MLOps to accelerate the development and deployment of AI/ML models.</p>
+
+
+
+<p>As I reflect on my AI journey thus far, there is a common thread: I always continue to learn new topics in the field and I encourage others to do the same. It’s an exciting time to be working on AI because there’s so much to learn everyday and so much innovation left to be done.</p>
+
+
+
+<p></p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p><strong>Why you decided to participate in the competition</strong></p>
+
+
+
+<p>I decided to participate in the competition because I wanted to learn the Data-Centric AI approach with a hands-on project (learn-by-doing).</p>
+
+
+
+<p>I stumbled on this Data-Centric AI movement by chance when browsing YouTube earlier this year. I found a video by Andrew Ng going over the shift from model-centric to data-centric approaches. Andrew shared the success he’s had applying these principles at Landing AI, and the ideas really resonated with me. This represented a paradigm shift in the way most AI practitioners build AI systems and I had a feeling that this shift would significantly accelerate the pace in which AI is adopted, allowing it to more quickly transform industries.</p>
+
+
+
+<p></p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p><strong>The techniques you used</strong></p>
+
+
+
+<p>I developed a new technique I’m calling <strong>“Data Boosting,”</strong> described in more detail in my blog post on Medium: <a href="https://medium.com/@johnson.h.kuan/how-i-won-andrew-ngs-very-first-data-centric-ai-competition-e02001268bda?sk=e239d8bc2a219a269e8939a0d14f6290">https://medium.com/@johnson.h.kuan/how-i-won-andrew-ngs-very-first-data-centric-ai-competition-e02001268bda?sk=e239d8bc2a219a269e8939a0d14f6290</a></p>
+
+
+
+<p>Before getting into the crux of my solution, the first thing I did was follow the common practice of fixing labels and removing bad data.</p>
+
+
+
+<p>To streamline this workflow, I wrote a Python program to evaluate a given dataset (after feeding it into the fixed model and training procedure) and generate a spreadsheet with logged metrics about each image.</p>
+
+
+
+<p>This spreadsheet contains the given label, predicted label (using the fixed model), and loss for each image, which are all very useful tools to isolate inaccuracies and edge cases. Example below.</p>
+
+
+
+<p><img loading="lazy" width="624" height="345" src="https://lh6.googleusercontent.com/ckA4cdIgE1wnGkJ3Tu80Dd2aaBpZUAm3bn2pHOo0PmGZkV5JQG2U1-AmNGp3yMo6tjCjmi-86cJWvEIDzrVU6pSKLkdM-mw9xA8FMB5uBZRMtUlCV4IyevXm002qInWBwI-jb48N=s1600"></p>
+
+
+
+<p>I initially used this spreadsheet to identify images that were incorrectly labeled and images that were clearly not Roman numerals from 1–10 (e.g. there was a heart image in the original training set).</p>
+
+
+
+<p>Now onto the “Data Boosting” technique. Below are the high level steps:</p>
+
+
+
+<ol><li>I generated a very large set of randomly augmented images from the training data (treating these as “candidates” to source from).</li><li>I trained an initial model and predicted on the validation set.</li><li>I used another pre-trained model to extract features (aka embeddings) from the validation images and augmented images.</li><li>For each misclassified validation image, I retrieved the nearest neighbors (based on cosine similarity) from the set of augmented images using the extracted features. I added these nearest neighbor augmented images to the training set. I call this procedure “Data Boosting”.</li><li>I retrained the model with the added augmented images and predict on the validation set.</li><li>I repeated steps 4–6 until reaching the limit of 10K images.</li></ol>
+
+
+
+<p>See below diagram of this iterative procedure:</p>
+
+
+
+<p><strong><img loading="lazy" width="624" height="504" src="https://lh5.googleusercontent.com/XEDQe6EMh8CJqVe7_NQmd1wxaiBVhxecnQkijglm13q2ghcOVElnlhhOG5fESa4JO9w0MQ20K9WEpOxNztGie_54AAkvuFSvFseyQ_nhtILtWBevOgE3fif3dSLwhIp9wkgLfUoI=s1600"></strong></p>
+
+
+
+<p>A few things to note on the procedure above:</p>
+
+
+
+<ul><li>Although I used augmented images for this competition, in practice we can use any large set of images as candidates to source from.</li><li>I generated ~1M randomly augmented images from the training set as candidates to source from</li><li>I used the data evaluation spreadsheet to keep track of misclassified images and to annotate the data. I also spun up an instance of Label Studio with a PostgreSQL backend but decided not to use it due to the unnecessary overhead.</li><li>For the pre-trained model, I used ResNet50 trained on ImageNet.</li><li>I used the Annoy package to perform an approximate nearest neighbor search.</li><li>The number of nearest neighbors to retrieve per misclassified validation image is a hyper-parameter.</li></ul>
+
+
+
+<p>One cool thing about extracting features from images is that we can visualize them in 2D with UMAP to better understand the feature space of the training and validation sets. In the visualization below, we can see that the given training data distribution does not match the given validation data. There’s also a region of the feature space in the bottom left corner where we don’t have validation images. This suggests that there is an opportunity here to experiment with reshuffling the training and validation data splits before running the “Data Boosting” procedure above.</p>
+
+
+
+<p><strong><img loading="lazy" width="624" height="461" src="https://lh4.googleusercontent.com/1bxRY6zcot3XmQqwk7IPymjdR3fKtDGIZ8hcGkYyRYrBgaWEmxGdnoMJ1pRgoi5D6EZ-kPfMuXQCZWNd4hEG7awgue8O6GTtm9YmgZ5ZohP1Kx1trdbCIxGe0XvFojlBYAWoQJuW=s1600"></strong></p>
+
+
+
+<p>To give some context, my approach was primarily motivated and inspired by two things:</p>
+
+
+
+<ul><li>Andrej Karpathy’s<a href="https://www.youtube.com/watch?v=FnFksQo-yEY&amp;t=1316s"> talk</a> in 2019 where he describes how the large amounts of data collected from Tesla’s fleet can be efficiently sourced and labeled to address inaccuracies which are often edge cases (long tail of the distribution).</li><li>I wanted to develop a data-centric boosting algorithm (analogous to gradient boosting) where inaccuracies in the model predictions are iteratively addressed in each step by automatically sourcing data that are similar to those inaccuracies. This is why I called the approach “data boosting”.</li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p></p>
+
+
+
+<p><strong>Your advice for other learners</strong></p>
+
+
+
+<p>My advice to other learners in AI is to learn by doing and to be persistent. More often than not, the first few attempts at applying new knowledge will not be successful. However, I believe with persistence and determination, anyone can learn AI and apply their skills to build something great.</p>
+<p>The post <a rel="nofollow" href="https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/">How I Won the First Data-centric AI Competition: Johnson Kuan</a> appeared first on <a rel="nofollow" href="https://www.deeplearning.ai">DeepLearning.AI</a>.</p>
+]]>
+            </content:encoded>
+        </item>
+    </channel>
+</rss>
