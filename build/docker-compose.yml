@@ -1,0 +1,22 @@
+# Use guest username and password
+# managing UI - http://localhost:15672
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: 'rabbitmq'
+    ports:
+        - 5672:5672
+        - 15672:15672
+    volumes:
+        - ${dockerDataPath}/rabbitmq/data/:/var/lib/rabbitmq/mnesia
+        - ${dockerDataPath}/rabbitmq/log/:/var/log/rabbitmq
+
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      -  27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=$MONGO_INITDB_ROOT_USERNAME
+      - MONGO_INITDB_ROOT_PASSWORD=$MONGO_INITDB_ROOT_PASSWORD
