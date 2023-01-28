@@ -1,7 +1,8 @@
 using AutoMapper;
 using Condensator.Api.Models;
-using Condensator.Api.services;
+using Condensator.Api.Services;
 using Microsoft.AspNetCore.Mvc;
+using Condensator.Api.Extensions;
 using Public = Condensator.Common.Entities;
     
 var builder = WebApplication.CreateBuilder(args);
@@ -11,10 +12,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<IMapper>(CreateMapper());
+builder.Services.AddSingleton(CreateMapper());
+builder.Services.AddHostedService<NewLinksCollector>();
 
-var cosmosConfig = builder.Services.Configure<MongoDatabaseConfiguration>(builder.Configuration.GetSection("MongoDatabase"));
+
+builder.Services.Configure<MongoDatabaseConfiguration>(builder.Configuration.GetSection("MongoDatabase"));
 builder.Services.AddSingleton<IRepository, MongoRepository>();
+
+builder.Services.InitializeRabitMq();
 
 builder.Services.AddCors(options =>
 {
@@ -83,3 +88,4 @@ static IMapper CreateMapper()
     IMapper mapper = config.CreateMapper();
     return mapper;
 }
+

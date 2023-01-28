@@ -55,7 +55,7 @@ class NewsPleaseArticle:
         self.Url = newsParserArticle.url
 
 class ArticleInfo:
-
+    FeedId = "No Feed Id"
     Title: str = ""
     CleanedText: str = ""
     MetaDescription: str = ""
@@ -84,7 +84,8 @@ class ArticleInfo:
     AdditionalData: str = ""
     Paragraphs: list = []
 
-    def __init__(self, gooseArticle:GooseArticle):
+    def __init__(self, gooseArticle:GooseArticle, feedId:str):
+        self.FeedId = feedId
         self.Title = gooseArticle.title
         self.CleanedText = gooseArticle.cleaned_text
         self.MetaDescription = gooseArticle.meta_description
@@ -99,7 +100,7 @@ class ArticleInfo:
         self.Tags = gooseArticle.tags
         self.Opengraph = gooseArticle.opengraph
         self.Tweets = gooseArticle.tweets
-        self.Movies = gooseArticle.movies
+        # self.Movies = gooseArticle.movies
         self.Links = gooseArticle.links
         self.Authors = gooseArticle.authors
         self.FinalUrl = gooseArticle.final_url
@@ -150,7 +151,7 @@ class Downloader:
     def OnNewDownloadRequest(self, channel, method, properties, body):
         requestObject = json.loads(body, object_hook=self.customConfigurationDecoder )
         gooseArticle = self.Goose.extract(url=requestObject.Url)
-        articleId = self.SaveArticleToDb(ArticleInfo(gooseArticle))
+        articleId = self.SaveArticleToDb(ArticleInfo(gooseArticle, requestObject.Name))
         self.AckMessageProcessed(channel, method, articleId)
        
     def AckMessageProcessed(self, channel, method, articleId: str):

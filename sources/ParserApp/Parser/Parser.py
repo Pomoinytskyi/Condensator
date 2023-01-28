@@ -39,8 +39,11 @@ class Parser:
         articleId = body.decode('utf-8')
         cleanedText = self.LoadArticleFromDb(articleId)
         paragraphs = self.SpleateOnTokens(cleanedText)
-        summary = self.Summarise(paragraphs)
-        self.SaveSummaryToDb(articleId, summary)
+        if len(paragraphs) > 1:
+            summary = self.Summarise(paragraphs)
+            self.SaveSummaryToDb(articleId, summary)
+        else:
+            self.SaveSummaryToDb(articleId, "!!! No text content detected !!!")
         channel.basic_ack(delivery_tag = method.delivery_tag)
 
     def StartListening(self):

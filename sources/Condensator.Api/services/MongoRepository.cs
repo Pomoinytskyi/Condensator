@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-namespace Condensator.Api.services
+namespace Condensator.Api.Services
 {
 	public interface IRepository
 	{
@@ -10,6 +10,8 @@ namespace Condensator.Api.services
 		Task AddNewsFeedsAsync(IEnumerable<NewsFeed> newsFeed);
 		Task UpdateNewsFeedAsync(string id, NewsFeed newsFeed);
 		Task DeleteNewsFeedAsync(string id);
+		Task<List<NewsFeed>> GetFeedsToPull(DateTime pulledBeforeTime);
+		Task UpdatePullTimeAsync(NewsFeed updatedFeed);
 	}
 
 	public class MongoRepository : IRepository
@@ -47,6 +49,19 @@ namespace Condensator.Api.services
 		public async Task DeleteNewsFeedAsync(string id)
 		{
 			await newsFeedsCollection.DeleteOneAsync<NewsFeed>(f => f.Id == id);
+		}
+
+		public async Task<List<NewsFeed>> GetFeedsToPull(DateTime pulledBeforeTime)
+		{
+			var queryResult = await newsFeedsCollection.FindAsync(f => f.LastPulled < pulledBeforeTime);
+			return queryResult.ToList();
+		}
+
+		public async Task UpdatePullTimeAsync(NewsFeed updatedFeed)
+		{
+			var filter = Builders<NewsFeed>.Filter.Eq(r => r.Id, updatedFeed.Id);
+			var update = Builders<NewsFeed>.Update.Set(r => r.LastPulled, updatedFeed.LastPulled);
+			await newsFeedsCollection.UpdateOneAsync(filter, update);
 		}
 	}
 }
