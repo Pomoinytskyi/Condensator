@@ -114,7 +114,6 @@ class ArticleInfo:
         
         # self.Paragraphs = self.SpleateOnParagraphs(gooseArticle.cleaned_text)
 
-        print("test")
 
     def SpleateOnParagraphs(self, mainText: str) -> list:
         tokens = filter(

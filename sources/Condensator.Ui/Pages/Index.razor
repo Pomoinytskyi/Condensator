@@ -1,0 +1,117 @@
+﻿@page "/"
+@using Condensator.Common.Entities;
+@using System.Net.Http
+@inject HttpClient Http
+@using System.Net.Http.Json
+
+<table class="table">
+	<thead>
+		<tr>
+			<th class="text-center">Name</th>
+			<th>Url</th>
+			<th>  </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr id="editRow" style="display:@editRowStyle">
+			
+			<td>
+				<input @bind="editItem.Name" />
+			</td>
+			<td>
+				<input @bind="editItem.Url" />
+			</td>
+			<td class="text-center">
+				<button class="btn btn-success" @onclick="SaveItem">
+					Save
+				</button>
+				<button class="btn btn-danger"
+						@onclick="@(() => editRowStyle = "none")">
+					Cancel
+				</button>
+			</td>
+		</tr>
+		@foreach (var item in feeds)
+		{
+			<tr>
+				<td> @item.Name </td>
+				<td>@item.Url</td>
+				<td class="text-center">
+					<button class="btn btn-warning"
+						@onclick="@(() => EditItem(item.Id))">
+						Edit
+					</button>
+					<button class="btn btn-danger"
+						@onclick="@(async () => await DeleteItem(item.Id))">
+						Delete
+					</button>
+				</td>
+			</tr>
+		}
+		<tr id="addRow">
+			<td>
+				<input @bind="newItemName" placeholder="Feed Name" />
+			</td>
+			<td>
+				<input @bind="newItemUrl" placeholder="Feed Url" />
+			</td>
+			<td class="text-center">
+				<button class="btn btn-success" @onclick="AddItem">Add</button>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+@code {
+	private List<NewsFeed>? feeds;
+	private NewsFeed editItem = new ();
+	private string editRowStyle = "none";
+
+
+	private string? newItemName;
+	private string? newItemUrl;
+
+	private const string ServiceEndpoint = "http://localhost:5217/newsFeeds";
+
+	protected async override Task OnInitializedAsync() => await GetFeeds();
+
+	private async Task<List<NewsFeed>> GetFeeds() => feeds = await Http.GetFromJsonAsync<List<NewsFeed>>(ServiceEndpoint);
+
+	private void EditItem(string id)
+	{
+		if (feeds is not null)
+		{
+			editItem = feeds.Single(i => i.Id == id);
+			editRowStyle = "table-row";
+		}
+	}
+
+	private async Task AddItem()
+	{
+		var addItem = new NewsFeed { Name = newItemName, Url = newItemUrl};
+		await Http.PostAsJsonAsync(ServiceEndpoint, addItem);
+		newItemName = string.Empty;
+		newItemUrl = string.Empty;
+		await GetFeeds();
+		editRowStyle = "none";
+	}
+
+	private async Task SaveItem()
+	{
+		if (editItem is not null)
+		{
+			await Http.PutAsJsonAsync($"{ServiceEndpoint}", editItem);
+		}
+		await GetFeeds();
+		editRowStyle = "none";
+	}
+
+	private async Task DeleteItem(string id)
+	{
+		await Http.DeleteAsync($"{ServiceEndpoint}/{id}");
+		await GetFeeds();
+		editRowStyle = "none";
+	}
+
+}

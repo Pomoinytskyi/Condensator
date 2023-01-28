@@ -5,30 +5,27 @@ from collections import namedtuple
 import sys
 import os
 
-from Downloader import Downloader, DownloaderConfiguration
+from Parser import Parser, ParserConfiguration
 
 configurationPath = "./sources/configuration.json"
 
-def customConfigurationDecoder(configDict) -> DownloaderConfiguration:
+def customConfigurationDecoder(configDict) -> ParserConfiguration:
     return namedtuple('X', configDict.keys())(*configDict.values())
 
-def ReadJsonConfigurationFromFile(filename) -> DownloaderConfiguration:
+def ReadJsonConfigurationFromFile(filename) -> ParserConfiguration:
     with open(filename) as openFile:
         return json.load(openFile, object_hook=customConfigurationDecoder)
 
-def SaveConfigurationToJsonFile(configuration: DownloaderConfiguration, filename: str):
+def SaveConfigurationToJsonFile(configuration: ParserConfiguration, filename: str):
     with open(filename, 'w') as openFile:
         json.dump(configuration.__dict__, openFile, indent=4)
 
 if __name__ == '__main__':
-    configuration : DownloaderConfiguration = ReadJsonConfigurationFromFile(configurationPath)
-    # configuration = DownloaderConfiguration()
-    # SaveConfigurationToJsonFile(configuration, configurationPath)
-
-    downloader = Downloader(configuration)
+    configuration : ParserConfiguration = ReadJsonConfigurationFromFile(configurationPath)
+    parser = Parser(configuration)
 
     try:
-        downloader.StartListening()
+        parser.StartListening()
     except KeyboardInterrupt:
         print('Interrupted')
         try:

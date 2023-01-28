@@ -1,7 +1,7 @@
 {
     "MessageBrockerHost": "localhost",
     "ExchangeName" : "",
-    "DownloadQueueName": "download",
+    "DownloadQueueName": "Download",
     "ProcessArticleContentQueueName": "ProcessArticleContent",
     "ConnectionString" : "mongodb://root:password@localhost:27017/?authSource=admin&readPreference=primary&ssl=false&directConnection=true",
     "DatabaseName" : "Condensator",

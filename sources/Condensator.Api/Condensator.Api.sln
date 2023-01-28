@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condensator.Api", "Condensator.Api\Condensator.Api.csproj", "{B7E6F974-BF92-4714-9734-DDEDE167448F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7E6F974-BF92-4714-9734-DDEDE167448F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E6F974-BF92-4714-9734-DDEDE167448F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E6F974-BF92-4714-9734-DDEDE167448F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E6F974-BF92-4714-9734-DDEDE167448F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F17A5AD-D76B-4112-AE72-BB18D86C4131}
+	EndGlobalSection
+EndGlobal
