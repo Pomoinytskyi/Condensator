@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condensator.Api", "Condensa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condensator.Ui", "Condensator.Ui\Condensator.Ui.csproj", "{8648D08D-91A8-4414-BCC8-71872CFC21D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condensator.Common", "Condensator.Common\Condensator.Common.csproj", "{57CBA5D5-30BB-452E-8F73-D2014080E7AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condensator.Common", "Condensator.Common\Condensator.Common.csproj", "{57CBA5D5-30BB-452E-8F73-D2014080E7AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

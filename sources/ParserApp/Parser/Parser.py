@@ -21,10 +21,11 @@ import torch
 
 from nltk.tokenize import sent_tokenize, word_tokenize
 from time import perf_counter
-
+import logging;
 
 class Parser:
     ParagraphMaxLength = 1000;
+    logger = logging.getLogger()
     def __init__(self, configuration: ParserConfiguration):
         self.configuration = configuration
         client = pymongo.MongoClient(self.configuration.ConnectionString)
@@ -37,13 +38,18 @@ class Parser:
 
     def OnNewParseRequest(self, channel, method, properties, body):
         articleId = body.decode('utf-8')
+        self.logger.debug("New message received: {articleId}", articleId = articleId)
         cleanedText = self.LoadArticleFromDb(articleId)
-        paragraphs = self.SpleateOnTokens(cleanedText)
-        if len(paragraphs) > 1:
-            summary = self.Summarise(paragraphs)
-            self.SaveSummaryToDb(articleId, summary)
-        else:
-            self.SaveSummaryToDb(articleId, "!!! No text content detected !!!")
+        if len(cleanedText) > 0:
+            self.logger.debug("Article loaded {articleId}", articleId = articleId)
+            paragraphs = self.SpleateOnTokens(cleanedText)
+            if len(paragraphs) > 1:
+                summary = self.Summarise(paragraphs)
+                self.SaveSummaryToDb(articleId, summary)
+                self.logger.debug("Summary saved to DB")
+            else:
+                self.SaveSummaryToDb(articleId, "!!! No text content detected !!!")
+                self.logger.warning("No text contend found in article {articleId}, {cleanedText}", articleId = articleId, cleanedText = cleanedText)
         channel.basic_ack(delivery_tag = method.delivery_tag)
 
     def StartListening(self):
@@ -63,6 +69,8 @@ class Parser:
 
     def LoadArticleFromDb(self, articleId:str) -> list:
         article = self.ArticlesCollection.find_one(ObjectId(articleId))
+        if article == None : 
+            return ""
         return article["CleanedText"]
 
     def SaveSummaryToDb(self, articleId: str, summary: str) -> str:

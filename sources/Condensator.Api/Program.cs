@@ -76,6 +76,15 @@ app.MapDelete("/newsFeeds/{id}", async (string id, [FromServices] IRepository re
 .WithName("Delete news feed")
 .WithOpenApi();
 
+app.MapGet("/feed/{feedId}", async (string feedId, [FromServices] IRepository repository, [FromServices] IMapper mapper) =>
+{
+	var data = await repository.GetFeedSummaries(feedId);
+	var mapped = data.Select(d => mapper.Map<Public.Article>(d));
+	return mapped;
+})
+.WithName("Get feed articles")
+.WithOpenApi();
+
 app.Run();
 
 static IMapper CreateMapper()
@@ -83,7 +92,10 @@ static IMapper CreateMapper()
     var config = new MapperConfiguration(cfg =>
     {
         cfg.CreateMap<NewsFeed, Public.NewsFeed>().ReverseMap();
-    });
+		cfg.CreateMap<Article, Public.Article>()
+			.ForMember(dest => dest.Url, opt => opt.MapFrom(src => src.FinalUrl))
+			.ReverseMap();
+	});
 
     IMapper mapper = config.CreateMapper();
     return mapper;

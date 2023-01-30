@@ -1,0 +1,43 @@
+﻿@page "/feed/{feedId}"
+@using Condensator.Common.Entities;
+@using System.Net.Http
+@using MudBlazor
+
+@inject HttpClient Http
+
+@if (Articles == null)
+{
+	<p> Loading...</p>
+}
+else
+{
+    <MudExpansionPanels MultiExpansion="true">
+        @foreach(var article in Articles)
+        {
+			<MudExpansionPanel Text=@article.Title>
+				@article.Summary
+				<br>
+				<MudLink href=@article.Url Target="_blank">Read original article.</MudLink>
+			</MudExpansionPanel>            
+        }
+        
+    </MudExpansionPanels>
+}
+
+
+@code{
+	private const string ServiceEndpoint = "http://localhost:5217/feed/";
+
+	[Parameter]
+	public string FeedId { get; set; }
+
+	private List<Article>? Articles = null;
+
+	protected async override Task OnInitializedAsync() => await LoadArticles();
+
+	private async Task LoadArticles()
+	{
+		Articles = await Http.GetFromJsonAsync<List<Article>>(ServiceEndpoint + FeedId);
+	}
+
+}

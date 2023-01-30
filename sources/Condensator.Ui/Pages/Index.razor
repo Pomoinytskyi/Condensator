@@ -1,10 +1,14 @@
 ﻿@page "/"
 @using Condensator.Common.Entities;
 @using System.Net.Http
-@inject HttpClient Http
 @using System.Net.Http.Json
 
-<table class="table">
+
+
+@inject HttpClient Http
+@inject NavigationManager NavManager
+
+@*<table class="table">
 	<thead>
 		<tr>
 			<th class="text-center">Name</th>
@@ -34,7 +38,11 @@
 		@foreach (var item in feeds)
 		{
 			<tr>
-				<td> @item.Name </td>
+				<td>
+					<a href=@($"/feed/{item.Id}" )>
+						@item.Name 
+					</a>						
+				</td>
 				<td>@item.Url</td>
 				<td class="text-center">
 					<button class="btn btn-warning"
@@ -60,8 +68,77 @@
 			</td>
 		</tr>
 	</tbody>
-</table>
+</table>*@
 
+<MudTable Items="@feeds" Hover="true" Loading="@(feeds==null)" LoadingProgressColor="Color.Info">
+	<HeaderContent>
+		<MudTh>Name</MudTh>
+		<MudTh>Url</MudTh>
+		<MudTh>Operation</MudTh>
+	</HeaderContent>
+	<RowTemplate>
+		<MudTd DataLabel="Name">
+			<a href=@($"/feed/{context.Id}" )> @context.Name </a>
+		</MudTd>
+		<MudTd DataLabel="Url">@context.Url</MudTd>
+		<MudTd DataLabel="Operations">
+			
+			@*<button class="btn btn-warning"
+					@onclick="@(() => EditItem(context.Id))">
+				Edit
+			</button>*@
+		@*	<button class="btn btn-danger"
+					@onclick="@(async () => await DeleteItem(context.Id))">
+				Delete
+			</button>*@
+			<MudIconButton Icon="@Icons.Material.Filled.Edit" aria-label="edit" OnClick="@( () => EditItem(context.Id))" />
+			<MudIconButton Icon="@Icons.Material.Filled.Delete" aria-label="delete" OnClick="@(async () => await DeleteItem(context.Id))"/>
+		</MudTd>		
+	</RowTemplate>
+</MudTable>
+
+
+<table class="table">
+	<thead>
+		<tr>
+			<th class="text-center">Name</th>
+			<th>Url</th>
+			<th>  </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr id="editRow" style="display:@editRowStyle">
+			
+			<td>
+				<input @bind="editItem.Name" />
+			</td>
+			<td>
+				<input @bind="editItem.Url" />
+			</td>
+			<td class="text-center">
+				<button class="btn btn-success" @onclick="SaveItem">
+					Save
+				</button>
+				<button class="btn btn-danger"
+						@onclick="@(() => editRowStyle = "none")">
+					Cancel
+				</button>
+			</td>
+		</tr>
+		<tr id="addRow">
+			<td>
+				<input @bind="newItemName" placeholder="Feed Name" />
+			</td>
+			<td>
+				<input @bind="newItemUrl" placeholder="Feed Url" />
+			</td>
+			<td class="text-center">
+				<button class="btn btn-success" @onclick="AddItem">Add</button>
+			</td>
+		</tr>
+
+		</tbody>
+</table>
 
 @code {
 	private List<NewsFeed>? feeds;

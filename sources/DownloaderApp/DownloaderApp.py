@@ -1,11 +1,24 @@
 #!/usr/bin/env python
 import json
 from collections import namedtuple
-
 import sys
 import os
-
 from Downloader import Downloader, DownloaderConfiguration
+
+import seqlog
+import logging
+
+seqlog.log_to_seq(
+   server_url="http://localhost:5341/",
+   api_key="",
+   level=logging.DEBUG,
+   batch_size=10,
+   auto_flush_timeout=1,  # seconds
+   override_root_logger=True,
+   json_encoder_class=json.encoder.JSONEncoder  # Optional; only specify this if you want to use a custom JSON encoder
+)
+
+logger = logging.getLogger()
 
 configurationPath = "./sources/configuration.json"
 
@@ -21,10 +34,8 @@ def SaveConfigurationToJsonFile(configuration: DownloaderConfiguration, filename
         json.dump(configuration.__dict__, openFile, indent=4)
 
 if __name__ == '__main__':
+    logger.info("Downloader started")
     configuration : DownloaderConfiguration = ReadJsonConfigurationFromFile(configurationPath)
-    # configuration = DownloaderConfiguration()
-    # SaveConfigurationToJsonFile(configuration, configurationPath)
-
     downloader = Downloader(configuration)
 
     try:

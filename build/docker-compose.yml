@@ -4,6 +4,7 @@
 services:
   rabbitmq:
     image: rabbitmq:3-management-alpine
+    restart: always
     container_name: 'rabbitmq'
     ports:
         - 5672:5672
@@ -20,3 +21,12 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=$MONGO_INITDB_ROOT_USERNAME
       - MONGO_INITDB_ROOT_PASSWORD=$MONGO_INITDB_ROOT_PASSWORD
+  
+  seq:
+    image: datalust/seq:latest
+    restart: always
+    ports:
+      - 5341:5341
+      - 8089:80
+    environment:
+      - ACCEPT_EULA=Y

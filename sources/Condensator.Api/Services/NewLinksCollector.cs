@@ -9,7 +9,7 @@ namespace Condensator.Api.Services;
 
 public class NewLinksCollector : IHostedService, IDisposable
 {
-	const int ExecutionIntervalSeconds = 60;
+	const int ExecutionIntervalSeconds = 3600;
 	private TimeSpan PullInterval => TimeSpan.FromSeconds(ExecutionIntervalSeconds);
 	
 	private readonly ILogger<NewLinksCollector> logger;
@@ -74,16 +74,14 @@ public class NewLinksCollector : IHostedService, IDisposable
 				await repository.UpdatePullTimeAsync(feed);
 				
 				var articles = ParseRssArticles(stringRssContent, feed.Id);
-				SendDownloadRequests(articles);
-				//await repository.AddRssArticlesAsync(articles);
+				var newArticles = await repository.FilterNewArticles(articles);
+				SendDownloadRequests(newArticles);
 			}
 			catch (Exception ex) when (
 				ex is SocketException ||
 				ex is HttpRequestException ||
 				ex is TimeoutException)
 			{
-				//feed.IsAlive = false;
-				//await repository.UpdateRssAliveStatusAsync(feed);
 				logger.LogError(ex, $"Error while pulling {feed.Name}, {feed.Url}");
 			}
 		}
@@ -138,14 +136,14 @@ public class NewLinksCollector : IHostedService, IDisposable
 				}).ToList();
 				return downloadRequests;
 			}
-			return new List<DownloadRequest>();
 		}
 		catch (Exception ex)
 		{
 			logger.LogError(ex, $"Error while parsing {rssId}");
 			logger.LogDebug(xml);
-			throw;
+			//throw;
 		}
+		return new List<DownloadRequest>();
 	}
 
 	private void SendDownloadRequests(List<DownloadRequest>requestObjects)
